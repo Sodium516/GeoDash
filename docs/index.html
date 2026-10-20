@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoDash - Python Recreation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .subtitle {
+            font-size: 1.3em;
+            opacity: 0.95;
+            margin-bottom: 30px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background: white;
+            color: #667eea;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            color: #667eea;
+        }
+
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .feature {
+            padding: 20px;
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+        }
+
+        .feature h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 0.95em;
+            margin: 0;
+        }
+
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #d63384;
+        }
+
+        .code-block {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .code-block code {
+            color: inherit;
+            background: none;
+            padding: 0;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .status {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .status strong {
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 GeoDash</h1>
+            <p class="subtitle">A Python Recreation of Geometry Dash</p>
+            <div class="cta-buttons">
+                <a href="https://github.com/Sodium516/GeoDash" class="btn btn-primary">View on GitHub</a>
+                <a href="#getting-started" class="btn btn-secondary">Get Started</a>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="status">
+                <strong>⚠️ Status:</strong> The Python recreation is unfinished. 13 levels have passing reference routes; others have known physics mismatches. See the <a href="https://github.com/Sodium516/GeoDash#geodash">repository README</a> for details.
+            </div>
+
+            <h2>About</h2>
+            <p>GeoDash is a Python recreation of the popular game Geometry Dash, built with pygame. It features a 1280×720 menu with the original UHD artwork, a complete level library, local progress tracking, and customizable garage colors. The recreation imports levels from the local Geometry Dash installation and supports playing with reference input recordings.</p>
+
+            <h2>Key Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>Original Menu</h3>
+                    <p>1280×720 interface with level carousel, full library, and music settings using original artwork.</p>
+                </div>
+                <div class="feature">
+                    <h3>22+ Levels</h3>
+                    <p>All 22 main levels, The Challenge, and Tower levels imported from your Steam installation.</p>
+                </div>
+                <div class="feature">
+                    <h3>Garage & Customization</h3>
+                    <p>Icon-color garage with persistent colors that apply to gameplay, animated parts, and effects.</p>
+                </div>
+                <div class="feature">
+                    <h3>Local Progress</h3>
+                    <p>Track your progress locally with no internet required to play.</p>
+                </div>
+                <div class="feature">
+                    <h3>Reference Validation</h3>
+                    <p>Test your implementation against recorded input sequences from the original game.</p>
+                </div>
+                <div class="feature">
+                    <h3>Original Game Access</h3>
+                    <p>Quick access to the original Geometry Dash game without modifying any files.</p>
+                </div>
+            </div>
+
+            <h2 id="getting-started">Getting Started</h2>
+            <p>GeoDash requires Python 3 and a local Geometry Dash installation.</p>
+
+            <h3>Installation</h3>
+            <div class="code-block"><code>git clone https://github.com/Sodium516/GeoDash.git
+cd GeoDash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt</code></div>
+
+            <h3>Running the Game</h3>
+            <div class="code-block"><code>.venv/bin/python geometry_dash.py</code></div>
+
+            <h3>Controls</h3>
+            <ul style="margin: 15px 20px;">
+                <li><strong>Space / Up / Left Mouse:</strong> Jump/Act</li>
+                <li><strong>Left / Right:</strong> Select level or practice section</li>
+                <li><strong>Enter:</strong> Play selected level</li>
+                <li><strong>R:</strong> Retry level</li>
+                <li><strong>P:</strong> Toggle practice mode</li>
+                <li><strong>Tab:</strong> Pause</li>
+                <li><strong>M:</strong> Toggle mute</li>
+                <li><strong>Escape:</strong> Return to menu</li>
+            </ul>
+
+            <h3>Verification & Testing</h3>
+            <div class="code-block"><code>.venv/bin/python -m unittest -q
+.venv/bin/python verify_level.py
+.venv/bin/python verify_level.py --level 17</code></div>
+
+            <h2>Compatibility</h2>
+            <p>Currently, <strong>13 levels have passing reference routes</strong>:</p>
+            <ul style="margin: 15px 20px;">
+                <li>First 11 main levels</li>
+                <li>Electroman Adventures</li>
+                <li>Clubstep</li>
+            </ul>
+            <p>Other levels have known physics mismatches. See <code>reference/compatibility_report.json</code> for detailed results.</p>
+
+            <h2>Documentation</h2>
+            <ul style="margin: 15px 20px;">
+                <li><a href="https://github.com/Sodium516/GeoDash">GitHub Repository</a></li>
+                <li><a href="https://github.com/Sodium516/GeoDash/blob/main/ASSET_CREDITS.md">Asset Credits</a></li>
+                <li><a href="https://github.com/Sodium516/GeoDash/blob/main/WORK_PROGRESS.md">Work Progress</a></li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>GeoDash is a recreation project for educational purposes.</p>
+            <p>Geometry Dash is created by <a href="https://robtopgames.com/" style="color: white;">RobTop Games</a>.</p>
+        </footer>
+    </div>
+</body>
+</html>
