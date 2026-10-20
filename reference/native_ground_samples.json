@@ -1,0 +1,55 @@
+{
+  "binary_sha256": "dc79491d886eedfc1f2be4ef6ae5c660f86470ee0e442b42ac97d793f031ad52",
+  "method": "updateJump grounded cube and ball",
+  "limitation": "Grounded cube/ball impulse probe against the hash-guarded installed binary.\n\nClock, jump statistics and rotation effects are skipped. flipGravity's physics\nprefix executes, then its visual/contact cleanup tail is skipped. Velocity-only\nfree-standing ground actions; not slope, collision or full-game evidence.\n",
+  "cases": [
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": false,
+      "native_vy": 11.18
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": true,
+      "native_vy": -11.18
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": false,
+      "native_vy": 8.943999999999999
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": true,
+      "native_vy": -8.943999999999999
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": false,
+      "native_vy": 3.3540001332759855
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": true,
+      "native_vy": -3.3540001332759855
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": false,
+      "native_vy": 2.6832001066207884
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": true,
+      "native_vy": -2.6832001066207884
+    }
+  ]
+}

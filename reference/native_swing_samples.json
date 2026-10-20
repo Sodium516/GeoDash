@@ -1,0 +1,119 @@
+{
+  "binary_sha256": "dc79491d886eedfc1f2be4ef6ae5c660f86470ee0e442b42ac97d793f031ad52",
+  "method": "updateJump Swing fresh flip",
+  "limitation": "Swing flip velocity probe using read-only installed engine code.\n\nSkips native 0x37b578..0x37b5fc (artwork, scale, streak effects) and updateSwingFire.\nRuns flipGravity's gravity/velocity state changes and updateJump arithmetic.\nSynthetic empty collision logs. Numerical samples are not full engine parity.\n",
+  "cases": [
+    {
+      "mini": false,
+      "upside": false,
+      "vy": -5,
+      "native_vy": -3.914,
+      "native_upside": true
+    },
+    {
+      "mini": false,
+      "upside": false,
+      "vy": 0,
+      "native_vy": 0.086,
+      "native_upside": true
+    },
+    {
+      "mini": false,
+      "upside": false,
+      "vy": 5,
+      "native_vy": 4.086,
+      "native_upside": true
+    },
+    {
+      "mini": false,
+      "upside": false,
+      "vy": 9,
+      "native_vy": 7.286,
+      "native_upside": true
+    },
+    {
+      "mini": false,
+      "upside": true,
+      "vy": -5,
+      "native_vy": -4.086,
+      "native_upside": false
+    },
+    {
+      "mini": false,
+      "upside": true,
+      "vy": 0,
+      "native_vy": -0.086,
+      "native_upside": false
+    },
+    {
+      "mini": false,
+      "upside": true,
+      "vy": 5,
+      "native_vy": 3.914,
+      "native_upside": false
+    },
+    {
+      "mini": false,
+      "upside": true,
+      "vy": 9,
+      "native_vy": 7.114,
+      "native_upside": false
+    },
+    {
+      "mini": true,
+      "upside": false,
+      "vy": -5,
+      "native_vy": -3.871,
+      "native_upside": true
+    },
+    {
+      "mini": true,
+      "upside": false,
+      "vy": 0,
+      "native_vy": 0.129,
+      "native_upside": true
+    },
+    {
+      "mini": true,
+      "upside": false,
+      "vy": 5,
+      "native_vy": 4.129,
+      "native_upside": true
+    },
+    {
+      "mini": true,
+      "upside": false,
+      "vy": 9,
+      "native_vy": 7.329,
+      "native_upside": true
+    },
+    {
+      "mini": true,
+      "upside": true,
+      "vy": -5,
+      "native_vy": -4.129,
+      "native_upside": false
+    },
+    {
+      "mini": true,
+      "upside": true,
+      "vy": 0,
+      "native_vy": -0.129,
+      "native_upside": false
+    },
+    {
+      "mini": true,
+      "upside": true,
+      "vy": 5,
+      "native_vy": 3.871,
+      "native_upside": false
+    },
+    {
+      "mini": true,
+      "upside": true,
+      "vy": 9,
+      "native_vy": 7.071,
+      "native_upside": false
+    }
+  ]
+}

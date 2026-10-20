@@ -1,0 +1,175 @@
+{
+  "binary_sha256": "dc79491d886eedfc1f2be4ef6ae5c660f86470ee0e442b42ac97d793f031ad52",
+  "method": "updateJump airborne robot",
+  "limitation": "Read-only airborne Robot velocity probe with no ground-jump latch.\n\nAll native physics helpers execute, with the velocity probe's minimal state.\nThese cases check that held input alone cannot suspend a Robot's fall.\n",
+  "cases": [
+    {
+      "mini": false,
+      "upside": false,
+      "held": false,
+      "vy": -5,
+      "native_vy": -5.194
+    },
+    {
+      "mini": false,
+      "upside": false,
+      "held": false,
+      "vy": 0,
+      "native_vy": -0.194
+    },
+    {
+      "mini": false,
+      "upside": false,
+      "held": false,
+      "vy": 5,
+      "native_vy": 4.806
+    },
+    {
+      "mini": false,
+      "upside": false,
+      "held": true,
+      "vy": -5,
+      "native_vy": -5.194
+    },
+    {
+      "mini": false,
+      "upside": false,
+      "held": true,
+      "vy": 0,
+      "native_vy": -0.194
+    },
+    {
+      "mini": false,
+      "upside": false,
+      "held": true,
+      "vy": 5,
+      "native_vy": 4.806
+    },
+    {
+      "mini": false,
+      "upside": true,
+      "held": false,
+      "vy": -5,
+      "native_vy": -4.806
+    },
+    {
+      "mini": false,
+      "upside": true,
+      "held": false,
+      "vy": 0,
+      "native_vy": 0.194
+    },
+    {
+      "mini": false,
+      "upside": true,
+      "held": false,
+      "vy": 5,
+      "native_vy": 5.194
+    },
+    {
+      "mini": false,
+      "upside": true,
+      "held": true,
+      "vy": -5,
+      "native_vy": -4.806
+    },
+    {
+      "mini": false,
+      "upside": true,
+      "held": true,
+      "vy": 0,
+      "native_vy": 0.194
+    },
+    {
+      "mini": false,
+      "upside": true,
+      "held": true,
+      "vy": 5,
+      "native_vy": 5.194
+    },
+    {
+      "mini": true,
+      "upside": false,
+      "held": false,
+      "vy": -5,
+      "native_vy": -5.194
+    },
+    {
+      "mini": true,
+      "upside": false,
+      "held": false,
+      "vy": 0,
+      "native_vy": -0.194
+    },
+    {
+      "mini": true,
+      "upside": false,
+      "held": false,
+      "vy": 5,
+      "native_vy": 4.806
+    },
+    {
+      "mini": true,
+      "upside": false,
+      "held": true,
+      "vy": -5,
+      "native_vy": -5.194
+    },
+    {
+      "mini": true,
+      "upside": false,
+      "held": true,
+      "vy": 0,
+      "native_vy": -0.194
+    },
+    {
+      "mini": true,
+      "upside": false,
+      "held": true,
+      "vy": 5,
+      "native_vy": 4.806
+    },
+    {
+      "mini": true,
+      "upside": true,
+      "held": false,
+      "vy": -5,
+      "native_vy": -4.806
+    },
+    {
+      "mini": true,
+      "upside": true,
+      "held": false,
+      "vy": 0,
+      "native_vy": 0.194
+    },
+    {
+      "mini": true,
+      "upside": true,
+      "held": false,
+      "vy": 5,
+      "native_vy": 5.194
+    },
+    {
+      "mini": true,
+      "upside": true,
+      "held": true,
+      "vy": -5,
+      "native_vy": -4.806
+    },
+    {
+      "mini": true,
+      "upside": true,
+      "held": true,
+      "vy": 0,
+      "native_vy": 0.194
+    },
+    {
+      "mini": true,
+      "upside": true,
+      "held": true,
+      "vy": 5,
+      "native_vy": 5.194
+    }
+  ]
+}

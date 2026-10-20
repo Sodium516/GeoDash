@@ -1,0 +1,391 @@
+{
+  "binary_sha256": "dc79491d886eedfc1f2be4ef6ae5c660f86470ee0e442b42ac97d793f031ad52",
+  "method": "updateJump ramp-assisted ground jump",
+  "limitation": "Native ramp-assisted ground-jump microprobe.\n\nUses the exclusions in native_ground_probe: clock/statistics and visual cleanup.\nExecutes getModifiedSlopeYVel and native velocity setters with supplied ramp\nvelocity/ride age. Does not prove the recreation's collision-derived ramp state.\n Robot cases stop at0x377d90 after the impulse, before sprite animation; not a complete update.",
+  "cases": [
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": false,
+      "age": 0.02,
+      "slope": 0,
+      "native_vy": 5.59
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": false,
+      "age": 0.02,
+      "slope": 8,
+      "native_vy": 6.39
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": false,
+      "age": 0.02,
+      "slope": 16,
+      "native_vy": 7.19
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": false,
+      "age": 0.02,
+      "slope": 100,
+      "native_vy": 7.826
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": false,
+      "age": 0.06,
+      "slope": 0,
+      "native_vy": 5.59
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": false,
+      "age": 0.06,
+      "slope": 8,
+      "native_vy": 6.79
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": false,
+      "age": 0.06,
+      "slope": 16,
+      "native_vy": 7.826
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": false,
+      "age": 0.06,
+      "slope": 100,
+      "native_vy": 7.826
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": false,
+      "age": 0.2,
+      "slope": 0,
+      "native_vy": 5.59
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": false,
+      "age": 0.2,
+      "slope": 8,
+      "native_vy": 7.59
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": false,
+      "age": 0.2,
+      "slope": 16,
+      "native_vy": 7.826
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": false,
+      "age": 0.2,
+      "slope": 100,
+      "native_vy": 7.826
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": true,
+      "age": 0.02,
+      "slope": 0,
+      "native_vy": -5.59
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": true,
+      "age": 0.02,
+      "slope": 8,
+      "native_vy": -6.39
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": true,
+      "age": 0.02,
+      "slope": 16,
+      "native_vy": -7.19
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": true,
+      "age": 0.02,
+      "slope": 100,
+      "native_vy": -7.826
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": true,
+      "age": 0.06,
+      "slope": 0,
+      "native_vy": -5.59
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": true,
+      "age": 0.06,
+      "slope": 8,
+      "native_vy": -6.79
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": true,
+      "age": 0.06,
+      "slope": 16,
+      "native_vy": -7.826
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": true,
+      "age": 0.06,
+      "slope": 100,
+      "native_vy": -7.826
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": true,
+      "age": 0.2,
+      "slope": 0,
+      "native_vy": -5.59
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": true,
+      "age": 0.2,
+      "slope": 8,
+      "native_vy": -7.59
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": true,
+      "age": 0.2,
+      "slope": 16,
+      "native_vy": -7.826
+    },
+    {
+      "mode": "robot",
+      "mini": false,
+      "upside": true,
+      "age": 0.2,
+      "slope": 100,
+      "native_vy": -7.826
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": false,
+      "age": 0.02,
+      "slope": 0,
+      "native_vy": 4.4719999999999995
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": false,
+      "age": 0.02,
+      "slope": 8,
+      "native_vy": 5.272
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": false,
+      "age": 0.02,
+      "slope": 16,
+      "native_vy": 6.072
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": false,
+      "age": 0.02,
+      "slope": 100,
+      "native_vy": 6.261
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": false,
+      "age": 0.06,
+      "slope": 0,
+      "native_vy": 4.4719999999999995
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": false,
+      "age": 0.06,
+      "slope": 8,
+      "native_vy": 5.672
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": false,
+      "age": 0.06,
+      "slope": 16,
+      "native_vy": 6.261
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": false,
+      "age": 0.06,
+      "slope": 100,
+      "native_vy": 6.261
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": false,
+      "age": 0.2,
+      "slope": 0,
+      "native_vy": 4.4719999999999995
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": false,
+      "age": 0.2,
+      "slope": 8,
+      "native_vy": 6.261
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": false,
+      "age": 0.2,
+      "slope": 16,
+      "native_vy": 6.261
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": false,
+      "age": 0.2,
+      "slope": 100,
+      "native_vy": 6.261
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": true,
+      "age": 0.02,
+      "slope": 0,
+      "native_vy": -4.4719999999999995
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": true,
+      "age": 0.02,
+      "slope": 8,
+      "native_vy": -5.272
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": true,
+      "age": 0.02,
+      "slope": 16,
+      "native_vy": -6.072
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": true,
+      "age": 0.02,
+      "slope": 100,
+      "native_vy": -6.261
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": true,
+      "age": 0.06,
+      "slope": 0,
+      "native_vy": -4.4719999999999995
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": true,
+      "age": 0.06,
+      "slope": 8,
+      "native_vy": -5.672
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": true,
+      "age": 0.06,
+      "slope": 16,
+      "native_vy": -6.261
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": true,
+      "age": 0.06,
+      "slope": 100,
+      "native_vy": -6.261
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": true,
+      "age": 0.2,
+      "slope": 0,
+      "native_vy": -4.4719999999999995
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": true,
+      "age": 0.2,
+      "slope": 8,
+      "native_vy": -6.261
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": true,
+      "age": 0.2,
+      "slope": 16,
+      "native_vy": -6.261
+    },
+    {
+      "mode": "robot",
+      "mini": true,
+      "upside": true,
+      "age": 0.2,
+      "slope": 100,
+      "native_vy": -6.261
+    }
+  ]
+}

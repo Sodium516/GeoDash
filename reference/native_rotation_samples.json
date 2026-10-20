@@ -1,0 +1,2569 @@
+{
+  "binary_sha256": "dc79491d886eedfc1f2be4ef6ae5c660f86470ee0e442b42ac97d793f031ad52",
+  "method": "updateShipRotation",
+  "native_dt": 0.25,
+  "dx": 1.3,
+  "limitation": "Native flight-rotation microprobe with synthetic position/angle accessors.\n\nExecutes updateShipRotation and its original Slerp2D helper. External libm\natan2f, sincosf, acosf and sinf use Python math rounded to float32, so results\ninclude that adapter's numerical limits. No full gameplay/collision parity claim.\n",
+  "cases": [
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -174.62857055664062
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": 2.496424436569214
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 21.746423721313477
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 166.1214141845703
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -175.71617126464844
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": 1.4088222980499268
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 20.658823013305664
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 165.0338134765625
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -163.625
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 19.25
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 163.625
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -165.0338134765625
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": -1.4088222980499268
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 17.84117889404297
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 175.71617126464844
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -166.1214141845703
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": -2.496424436569214
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 16.753576278686523
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 174.62857055664062
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -174.62857055664062
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": 2.496424436569214
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 21.746423721313477
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 166.1214141845703
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -175.71617126464844
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": 1.4088222980499268
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 20.658823013305664
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 165.0338134765625
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -163.625
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 19.25
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 163.625
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -165.0338134765625
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": -1.4088222980499268
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 17.84117889404297
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 175.71617126464844
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -166.1214141845703
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": -2.496424436569214
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 16.753576278686523
+    },
+    {
+      "mode": "ship",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 174.62857055664062
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -174.62857055664062
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": 2.496424436569214
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 21.746423721313477
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 166.1214141845703
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -175.71617126464844
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": 1.4088222980499268
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 20.658823013305664
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 165.0338134765625
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -163.625
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 19.25
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 163.625
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -165.0338134765625
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": -1.4088222980499268
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 17.84117889404297
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 175.71617126464844
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -166.1214141845703
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": -2.496424436569214
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 16.753576278686523
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 174.62857055664062
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -174.62857055664062
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": 2.496424436569214
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 21.746423721313477
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 166.1214141845703
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -175.71617126464844
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": 1.4088222980499268
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 20.658823013305664
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 165.0338134765625
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -163.625
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 19.25
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 163.625
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -165.0338134765625
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": -1.4088222980499268
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 17.84117889404297
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 175.71617126464844
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -166.1214141845703
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": -2.496424436569214
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 16.753576278686523
+    },
+    {
+      "mode": "ship",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 174.62857055664062
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -167.12525939941406
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": -0.10026761144399643
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 19.549732208251953
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 166.9247283935547
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -167.12525939941406
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": -0.10026761144399643
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 19.549732208251953
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 166.9247283935547
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -167.02499389648438
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 19.649999618530273
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 167.02499389648438
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -173.06201171875
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": 0.2629801630973816
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 19.912982940673828
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 167.28797912597656
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -172.85899353027344
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": 0.46599915623664856
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 20.115999221801758
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 167.49099731445312
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -167.49099731445312
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": -0.46599915623664856
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 19.184001922607422
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 172.85899353027344
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -167.28797912597656
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": -0.2629801630973816
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 19.387020111083984
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 173.06201171875
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -167.02499389648438
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 19.649999618530273
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 167.02499389648438
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -166.9247283935547
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": 0.10026761144399643
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 19.750268936157227
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 167.12525939941406
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -166.9247283935547
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": 0.10026761144399643
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 19.750268936157227
+    },
+    {
+      "mode": "ufo",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 167.12525939941406
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -167.12525939941406
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": -0.10026761144399643
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 19.549732208251953
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 166.9247283935547
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -167.12525939941406
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": -0.10026761144399643
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 19.549732208251953
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 166.9247283935547
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -167.02499389648438
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 19.649999618530273
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 167.02499389648438
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -173.06201171875
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": 0.2629801630973816
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 19.912982940673828
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 167.28797912597656
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -172.85899353027344
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": 0.46599915623664856
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 20.115999221801758
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 167.49099731445312
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -167.49099731445312
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": -0.46599915623664856
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 19.184001922607422
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 172.85899353027344
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -167.28797912597656
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": -0.2629801630973816
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 19.387020111083984
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 173.06201171875
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -167.02499389648438
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 19.649999618530273
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 167.02499389648438
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -166.9247283935547
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": 0.10026761144399643
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 19.750268936157227
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 167.12525939941406
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -166.9247283935547
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": 0.10026761144399643
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 19.750268936157227
+    },
+    {
+      "mode": "ufo",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 167.12525939941406
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -177.7142791748047
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": 4.160706520080566
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 22.910709381103516
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 163.53570556640625
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -179.52696228027344
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": 2.348037004470825
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 21.098037719726562
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 161.72303771972656
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -159.375
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 18.750001907348633
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 159.375
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -161.72303771972656
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": -2.348037004470825
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 16.40196418762207
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 179.52696228027344
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -163.53570556640625
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": -4.160706520080566
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 14.58929443359375
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 177.7142791748047
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -177.7142791748047
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": 4.160706520080566
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 22.910709381103516
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 163.53570556640625
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -179.52696228027344
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": 2.348037004470825
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 21.098037719726562
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 161.72303771972656
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -159.375
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 18.750001907348633
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 159.375
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -161.72303771972656
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": -2.348037004470825
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 16.40196418762207
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 179.52696228027344
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -163.53570556640625
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": -4.160706520080566
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 14.58929443359375
+    },
+    {
+      "mode": "wave",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 177.7142791748047
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -182.34286499023438
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": 6.657131671905518
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 24.657133102416992
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 159.65711975097656
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -185.24313354492188
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": 3.756859302520752
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 21.756858825683594
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 156.75686645507812
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -153.0
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 18.0
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 153.0
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -156.75686645507812
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": -3.756859302520752
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 14.243141174316406
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 185.24313354492188
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -159.65711975097656
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": -6.657131671905518
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 11.342869758605957
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 182.34286499023438
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -182.34286499023438
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": 6.657131671905518
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 24.657133102416992
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 159.65711975097656
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -185.24313354492188
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": 3.756859302520752
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 21.756858825683594
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 156.75686645507812
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -153.0
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 18.0
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 153.0
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -156.75686645507812
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": -3.756859302520752
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 14.243141174316406
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 185.24313354492188
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -159.65711975097656
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": -6.657131671905518
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 11.342869758605957
+    },
+    {
+      "mode": "wave",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 182.34286499023438
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -174.62857055664062
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": 2.496424436569214
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 21.746423721313477
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 166.1214141845703
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -175.71617126464844
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": 1.4088222980499268
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 20.658823013305664
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 165.0338134765625
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -163.625
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 19.25
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 163.625
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -165.0338134765625
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": -1.4088222980499268
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 17.84117889404297
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 175.71617126464844
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -166.1214141845703
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": -2.496424436569214
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 16.753576278686523
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": false,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 174.62857055664062
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -174.62857055664062
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": 2.496424436569214
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 21.746423721313477
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 166.1214141845703
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -175.71617126464844
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": 1.4088222980499268
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 20.658823013305664
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 165.0338134765625
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -163.625
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 19.25
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 163.625
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -165.0338134765625
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": -1.4088222980499268
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 17.84117889404297
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 175.71617126464844
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -166.1214141845703
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": -2.496424436569214
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 16.753576278686523
+    },
+    {
+      "mode": "swing",
+      "mini": false,
+      "upside": true,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 174.62857055664062
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -174.62857055664062
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": 2.496424436569214
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 21.746423721313477
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 166.1214141845703
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -175.71617126464844
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": 1.4088222980499268
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 20.658823013305664
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 165.0338134765625
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -163.625
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 19.25
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 163.625
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -165.0338134765625
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": -1.4088222980499268
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 17.84117889404297
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 175.71617126464844
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -166.1214141845703
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": -2.496424436569214
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 16.753576278686523
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": false,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 174.62857055664062
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": -170,
+      "native_rotation": -174.62857055664062
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": 0,
+      "native_rotation": 2.496424436569214
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": 20,
+      "native_rotation": 21.746423721313477
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": -3,
+      "rotation": 170,
+      "native_rotation": 166.1214141845703
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": -170,
+      "native_rotation": -175.71617126464844
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": 0,
+      "native_rotation": 1.4088222980499268
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": 20,
+      "native_rotation": 20.658823013305664
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": -1,
+      "rotation": 170,
+      "native_rotation": 165.0338134765625
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": -170,
+      "native_rotation": -163.625
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": 0,
+      "native_rotation": 0.0
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": 20,
+      "native_rotation": 19.25
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": 0,
+      "rotation": 170,
+      "native_rotation": 163.625
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": -170,
+      "native_rotation": -165.0338134765625
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": 0,
+      "native_rotation": -1.4088222980499268
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": 20,
+      "native_rotation": 17.84117889404297
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": 1,
+      "rotation": 170,
+      "native_rotation": 175.71617126464844
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": -170,
+      "native_rotation": -166.1214141845703
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": 0,
+      "native_rotation": -2.496424436569214
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": 20,
+      "native_rotation": 16.753576278686523
+    },
+    {
+      "mode": "swing",
+      "mini": true,
+      "upside": true,
+      "dy": 3,
+      "rotation": 170,
+      "native_rotation": 174.62857055664062
+    }
+  ]
+}

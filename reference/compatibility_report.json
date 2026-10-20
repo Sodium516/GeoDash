@@ -1,0 +1,939 @@
+[
+  {
+    "id": 1,
+    "name": "Stereo Madness",
+    "imported_objects": 2291,
+    "status": "original_inputs_pass",
+    "passed": true,
+    "frame": 20497,
+    "x": 26639.482421875,
+    "y": 165.0,
+    "mode": "ship",
+    "progress": 100,
+    "recording": "Stereo Madness.gdr2",
+    "recording_sha256": "e50b284fab0c2776c8f9c0e661134222cd28d9272244b37ff148c42c97ac9c5e",
+    "checks": [
+      {
+        "passed": true,
+        "frame": 20497,
+        "x": 26639.482421875,
+        "y": 165.0,
+        "mode": "ship",
+        "progress": 100,
+        "recording": "Stereo Madness.gdr2",
+        "recording_sha256": "e50b284fab0c2776c8f9c0e661134222cd28d9272244b37ff148c42c97ac9c5e"
+      },
+      {
+        "passed": true,
+        "frame": 20493,
+        "x": 26639.00390625,
+        "y": 195.7312774658203,
+        "mode": "ship",
+        "progress": 100,
+        "recording": "solution_lv1_dp.txt",
+        "recording_sha256": "068fec1da330a21a557a43c41083061446f90367449bfbf41961d0633b2e102f"
+      },
+      {
+        "passed": true,
+        "frame": 20495,
+        "x": 26640.09375,
+        "y": 389.9422607421875,
+        "mode": "ship",
+        "progress": 100,
+        "recording": "solution_lv1_coins.txt",
+        "recording_sha256": "f4b48c0431cf0d2576579bf28248d2ac9da82eace414d0533b107c0bc96adee9"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Back On Track",
+    "imported_objects": 1545,
+    "status": "original_inputs_pass",
+    "passed": true,
+    "frame": 19433,
+    "x": 25260.734375,
+    "y": 15.0,
+    "mode": "cube",
+    "progress": 100,
+    "recording": "solution_lv2_dp.txt",
+    "recording_sha256": "266a53bd1bc6e1c75bd2231486b54830135304df9a8d6b970307767281cd13f1",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 10592,
+        "x": 13765.7646484375,
+        "y": 242.5940704345703,
+        "mode": "ship",
+        "progress": 54.49629710386975,
+        "recording": "Back On Track.gdr2",
+        "recording_sha256": "f1326b92e0c1f887c38b001b4ed303cb145cf4776b879da43b58750cc6d8b7db"
+      },
+      {
+        "passed": true,
+        "frame": 19433,
+        "x": 25260.734375,
+        "y": 15.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "solution_lv2_dp.txt",
+        "recording_sha256": "266a53bd1bc6e1c75bd2231486b54830135304df9a8d6b970307767281cd13f1"
+      },
+      {
+        "passed": true,
+        "frame": 19434,
+        "x": 25260.033203125,
+        "y": 15.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "solution_lv2_coins.txt",
+        "recording_sha256": "c2c7f28b029125d3ee62217ea43a3ce25acbf1dccc0548a49d29393f2ac19ea7"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Polargeist",
+    "imported_objects": 1531,
+    "status": "original_inputs_pass",
+    "passed": true,
+    "frame": 21471,
+    "x": 27900.884765625,
+    "y": 15.0,
+    "mode": "cube",
+    "progress": 100,
+    "recording": "Polargeist.gdr2",
+    "recording_sha256": "503f5cd3614900a039736dae584ebdd851cdc702226e9a67fe0cd0ba384fe7c3",
+    "checks": [
+      {
+        "passed": true,
+        "frame": 21471,
+        "x": 27900.884765625,
+        "y": 15.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "Polargeist.gdr2",
+        "recording_sha256": "503f5cd3614900a039736dae584ebdd851cdc702226e9a67fe0cd0ba384fe7c3"
+      },
+      {
+        "passed": true,
+        "frame": 21466,
+        "x": 27901.25,
+        "y": 15.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "solution_lv3_dp.txt",
+        "recording_sha256": "25452fa30721bc5910921d0a2717fa02caa3e47ed6030ba786af584b8a225ef1"
+      },
+      {
+        "passed": true,
+        "frame": 21465,
+        "x": 27900.951171875,
+        "y": 15.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "solution_lv3_coins.txt",
+        "recording_sha256": "9e9caae866b7529bace29a32534fc29d802ff929ce2d039c0c78de9d74ba3bc8"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Dry Out",
+    "imported_objects": 1444,
+    "status": "original_inputs_pass",
+    "passed": true,
+    "frame": 19362,
+    "x": 25162.607421875,
+    "y": 15.0,
+    "mode": "cube",
+    "progress": 100,
+    "recording": "Dry Out.gdr2",
+    "recording_sha256": "4d9552b70127c7bd3137de3c745a99afaa4b5389a7590a5e28c41c1125c58f60",
+    "checks": [
+      {
+        "passed": true,
+        "frame": 19362,
+        "x": 25162.607421875,
+        "y": 15.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "Dry Out.gdr2",
+        "recording_sha256": "4d9552b70127c7bd3137de3c745a99afaa4b5389a7590a5e28c41c1125c58f60"
+      },
+      {
+        "passed": true,
+        "frame": 19354,
+        "x": 25163.134765625,
+        "y": 15.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "solution_lv4_dp.txt",
+        "recording_sha256": "a9025d476face492deef8cc14f00769ef2dcf8df5ca793d3ffbebd3b925008ce"
+      },
+      {
+        "passed": true,
+        "frame": 19354,
+        "x": 25163.134765625,
+        "y": 15.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "solution_lv4_coins.txt",
+        "recording_sha256": "9533221a2b26d642cd624ba3e121827e8aa5edcc1b46d182f7c1374bd12288ce"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Base After Base",
+    "imported_objects": 2146,
+    "status": "original_inputs_pass",
+    "passed": true,
+    "frame": 19947,
+    "x": 25921.24609375,
+    "y": 15.0,
+    "mode": "cube",
+    "progress": 100,
+    "recording": "Base After Base.gdr2",
+    "recording_sha256": "2632fe74589ad4616aeeba7c4621578d66011c8483b26a8c86d2112fbc7fadd2",
+    "checks": [
+      {
+        "passed": true,
+        "frame": 19947,
+        "x": 25921.24609375,
+        "y": 15.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "Base After Base.gdr2",
+        "recording_sha256": "2632fe74589ad4616aeeba7c4621578d66011c8483b26a8c86d2112fbc7fadd2"
+      },
+      {
+        "passed": true,
+        "frame": 19933,
+        "x": 25920.154296875,
+        "y": 15.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "solution_lv5_dp.txt",
+        "recording_sha256": "460b8bb52e303ccd6bcbe56d31926caac2fd56ffff44ce7a040a8dbb7d36e942"
+      },
+      {
+        "passed": true,
+        "frame": 19936,
+        "x": 25920.048828125,
+        "y": 15.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "solution_lv5_coins.txt",
+        "recording_sha256": "5109761f910f61683394a032a51c73699d33f535b2a38a7855e1c5231a804e73"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Can't Let Go",
+    "imported_objects": 1704,
+    "status": "original_inputs_pass",
+    "passed": true,
+    "frame": 19193,
+    "x": 24963.029296875,
+    "y": 15.0,
+    "mode": "cube",
+    "progress": 100,
+    "recording": "solution_lv6_dp.txt",
+    "recording_sha256": "7c58b99b8810e9dac96e741aebaffbe8225bb420e8ff2ccb93a876ab8d26b9f7",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 12337,
+        "x": 16041.484375,
+        "y": 122.837158203125,
+        "mode": "ship",
+        "progress": 64.26361819966348,
+        "recording": "Cant Let Go.gdr2",
+        "recording_sha256": "4c3e66f606f7b9594067c7a4174b4193a2a030cdb9fb64340e387ff491b4b44b"
+      },
+      {
+        "passed": true,
+        "frame": 19193,
+        "x": 24963.029296875,
+        "y": 15.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "solution_lv6_dp.txt",
+        "recording_sha256": "7c58b99b8810e9dac96e741aebaffbe8225bb420e8ff2ccb93a876ab8d26b9f7"
+      },
+      {
+        "passed": true,
+        "frame": 19195,
+        "x": 24963.0078125,
+        "y": 49.520389556884766,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "solution_lv6_coins.txt",
+        "recording_sha256": "03eac9cd436acad5a0898ae94fc1f0820cebddcc6eeef84be1607dcbd416745e"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Jumper",
+    "imported_objects": 2813,
+    "status": "original_inputs_pass",
+    "passed": true,
+    "frame": 20593,
+    "x": 26782.37890625,
+    "y": 15.0,
+    "mode": "cube",
+    "progress": 100,
+    "recording": "solution_lv7_dp.txt",
+    "recording_sha256": "a9549e3f5fa046b99a504af79e713bffe33734e511baf87471b51ac434716bc9",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 7382,
+        "x": 9596.7451171875,
+        "y": 66.24736022949219,
+        "mode": "ship",
+        "progress": 35.832817254826004,
+        "recording": "Jumper.gdr2",
+        "recording_sha256": "2744ace42b7292ed842ac85813a623ac739da11e6e5027b581ad5c365d50b26c"
+      },
+      {
+        "passed": true,
+        "frame": 20593,
+        "x": 26782.37890625,
+        "y": 15.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "solution_lv7_dp.txt",
+        "recording_sha256": "a9549e3f5fa046b99a504af79e713bffe33734e511baf87471b51ac434716bc9"
+      },
+      {
+        "passed": true,
+        "frame": 20593,
+        "x": 26782.37890625,
+        "y": 15.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "solution_lv7_coins.txt",
+        "recording_sha256": "544e3e6056945fb2950395045e99d02fdb9cd8c4cf8ccfe0b339ad7a736a3451"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Time Machine",
+    "imported_objects": 3599,
+    "status": "original_inputs_pass",
+    "passed": true,
+    "frame": 22881,
+    "x": 29731.091796875,
+    "y": 255.45269775390625,
+    "mode": "ship",
+    "progress": 100,
+    "recording": "solution_lv8_dp.txt",
+    "recording_sha256": "e3bedd12b938d9e53b45b2841d35614beb28227240f42392e5aa8d26d7e7e463",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 15974,
+        "x": 20752.31640625,
+        "y": 34.637969970703125,
+        "mode": "cube",
+        "progress": 69.80261152455432,
+        "recording": "Time Machine.gdr2",
+        "recording_sha256": "026018bd6447d97d302b277f80db557782edda1b90cff721a04e1591010400f7"
+      },
+      {
+        "passed": true,
+        "frame": 22881,
+        "x": 29731.091796875,
+        "y": 255.45269775390625,
+        "mode": "ship",
+        "progress": 100,
+        "recording": "solution_lv8_dp.txt",
+        "recording_sha256": "e3bedd12b938d9e53b45b2841d35614beb28227240f42392e5aa8d26d7e7e463"
+      },
+      {
+        "passed": true,
+        "frame": 22879,
+        "x": 29730.001953125,
+        "y": 225.42315673828125,
+        "mode": "ship",
+        "progress": 100,
+        "recording": "solution_lv8_coins.txt",
+        "recording_sha256": "383f51c378b74fe7908d38ee058bad5adbc86cf99cdde2449dae66a1a071fa91"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Cycles",
+    "imported_objects": 3921,
+    "status": "original_inputs_pass",
+    "passed": true,
+    "frame": 18849,
+    "x": 24480.212890625,
+    "y": 15.0,
+    "mode": "ball",
+    "progress": 100,
+    "recording": "solution_lv9_dp.txt",
+    "recording_sha256": "90453e6cef1ecd75f4a9735e3cb21f8260df910f579200d891c9b00c8907ab72",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 8317,
+        "x": 10801.3984375,
+        "y": 53.625755310058594,
+        "mode": "ball",
+        "progress": 44.12335963031046,
+        "recording": "Cycles.gdr2",
+        "recording_sha256": "1dff3087a658359b5eff5400f3995293e731ef07f39885181a1d25e185953b34"
+      },
+      {
+        "passed": true,
+        "frame": 18849,
+        "x": 24480.212890625,
+        "y": 15.0,
+        "mode": "ball",
+        "progress": 100,
+        "recording": "solution_lv9_dp.txt",
+        "recording_sha256": "90453e6cef1ecd75f4a9735e3cb21f8260df910f579200d891c9b00c8907ab72"
+      },
+      {
+        "passed": true,
+        "frame": 18849,
+        "x": 24480.212890625,
+        "y": 15.0,
+        "mode": "ball",
+        "progress": 100,
+        "recording": "solution_lv9_coins.txt",
+        "recording_sha256": "3d89e72f3296a4772a46da21de1a137aa6b68b7b6742918692ec2f129946dcc1"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "xStep",
+    "imported_objects": 4716,
+    "status": "original_inputs_pass",
+    "passed": true,
+    "frame": 19428,
+    "x": 25228.09765625,
+    "y": 75.0,
+    "mode": "ship",
+    "progress": 100,
+    "recording": "xStep.gdr2",
+    "recording_sha256": "c8da59cf28365d31a48509163119bb0e3c8cc7d9dce302ebb8a84bba27e69ad6",
+    "checks": [
+      {
+        "passed": true,
+        "frame": 19428,
+        "x": 25228.09765625,
+        "y": 75.0,
+        "mode": "ship",
+        "progress": 100,
+        "recording": "xStep.gdr2",
+        "recording_sha256": "c8da59cf28365d31a48509163119bb0e3c8cc7d9dce302ebb8a84bba27e69ad6"
+      },
+      {
+        "passed": false,
+        "frame": 18399,
+        "x": 23893.740234375,
+        "y": 337.4364929199219,
+        "mode": "ship",
+        "progress": 94.71119484055414,
+        "recording": "solution_lv10_dp.txt",
+        "recording_sha256": "c5f88c9689c7a5c6918ad4eba7a3aa5981b086d947224f5f9930dc2602f42b0b"
+      },
+      {
+        "passed": true,
+        "frame": 19427,
+        "x": 25228.935546875,
+        "y": 277.398193359375,
+        "mode": "ship",
+        "progress": 100,
+        "recording": "solution_lv10_coins.txt",
+        "recording_sha256": "86bfe9a877b94596f937a48382b3bb50a5a1f2f66ee8d94eb0896dca33d029dd"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Clutterfunk",
+    "imported_objects": 4863,
+    "status": "original_inputs_pass",
+    "passed": true,
+    "frame": 22879,
+    "x": 29719.20703125,
+    "y": 9.0,
+    "mode": "cube",
+    "progress": 100,
+    "recording": "solution_lv11_dp.txt",
+    "recording_sha256": "d934a2b2bc584a9fb6822cf5d4c3e9440742e96cedfd0103ad301a3c510fcec0",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 7118,
+        "x": 9245.0302734375,
+        "y": 251.04844665527344,
+        "mode": "ship",
+        "progress": 31.10919400174137,
+        "recording": "Clutterfunk.gdr2",
+        "recording_sha256": "1eb9ce93b8776e36c812b83f11d9c4c762fd4fa856bb4a8221151d4c6864e8d7"
+      },
+      {
+        "passed": true,
+        "frame": 22879,
+        "x": 29719.20703125,
+        "y": 9.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "solution_lv11_dp.txt",
+        "recording_sha256": "d934a2b2bc584a9fb6822cf5d4c3e9440742e96cedfd0103ad301a3c510fcec0"
+      },
+      {
+        "passed": true,
+        "frame": 22878,
+        "x": 29719.19140625,
+        "y": 9.0,
+        "mode": "cube",
+        "progress": 100,
+        "recording": "solution_lv11_coins.txt",
+        "recording_sha256": "30e4bd85a2bd84a8d3fed7e485f1bd07d2bb45bfac641747604b1a9ad4df5193"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Theory of Everything",
+    "imported_objects": 4345,
+    "status": "physics_mismatch",
+    "passed": false,
+    "frame": 783,
+    "x": 1016.5404052734375,
+    "y": 165.4088134765625,
+    "mode": "cube",
+    "progress": 3.9446659110339057,
+    "recording": "solution_lv12_dp.txt",
+    "recording_sha256": "afbddb55b091512b7a2036eca7f9be371227be1f8d7626376ea53629badf2022",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 783,
+        "x": 1016.5404052734375,
+        "y": 165.4088134765625,
+        "mode": "cube",
+        "progress": 3.9446659110339057,
+        "recording": "solution_lv12_dp.txt",
+        "recording_sha256": "afbddb55b091512b7a2036eca7f9be371227be1f8d7626376ea53629badf2022"
+      },
+      {
+        "passed": false,
+        "frame": 783,
+        "x": 1016.5404052734375,
+        "y": 165.4088134765625,
+        "mode": "cube",
+        "progress": 3.9446659110339057,
+        "recording": "solution_lv12_coins.txt",
+        "recording_sha256": "fbc207625b9f185af45655fac73f1d06211f993843bbd9797f537f6ffa36e79a"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Electroman Adventures",
+    "imported_objects": 5643,
+    "status": "physics_mismatch",
+    "passed": false,
+    "frame": 11968,
+    "x": 15543.611328125,
+    "y": 141.6509552001953,
+    "mode": "ship",
+    "progress": 59.14616182695966,
+    "recording": "solution_lv13_coins.txt",
+    "recording_sha256": "789ce3d681ed92f2716098fa4b7292163f34b8aded7c7e9a0a4f4b55687d1948",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 3869,
+        "x": 5026.12060546875,
+        "y": 46.562217712402344,
+        "mode": "ship",
+        "progress": 19.125268666167237,
+        "recording": "solution_lv13_dp.txt",
+        "recording_sha256": "7e17db6504c85024b827b56fff74f9c6eb09579ea0e800eb7002293d9330eeea"
+      },
+      {
+        "passed": false,
+        "frame": 11968,
+        "x": 15543.611328125,
+        "y": 141.6509552001953,
+        "mode": "ship",
+        "progress": 59.14616182695966,
+        "recording": "solution_lv13_coins.txt",
+        "recording_sha256": "789ce3d681ed92f2716098fa4b7292163f34b8aded7c7e9a0a4f4b55687d1948"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Clubstep",
+    "imported_objects": 7641,
+    "status": "original_inputs_pass",
+    "passed": true,
+    "frame": 20689,
+    "x": 26879.05859375,
+    "y": 87.45222473144531,
+    "mode": "ship",
+    "progress": 100,
+    "recording": "solution_lv14_coins.txt",
+    "recording_sha256": "cdc390af62656fbb744e83d90f26d704f263e81e5b0a9f0b22c772776b146735",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 19863,
+        "x": 25805.2265625,
+        "y": 61.15517807006836,
+        "mode": "ship",
+        "progress": 96.00873042079023,
+        "recording": "solution_lv14_dp.txt",
+        "recording_sha256": "c81c531fd6b1d9baa4af128079b11f12c8485216442d196043103e0fd7fc59bf"
+      },
+      {
+        "passed": true,
+        "frame": 20689,
+        "x": 26879.05859375,
+        "y": 87.45222473144531,
+        "mode": "ship",
+        "progress": 100,
+        "recording": "solution_lv14_coins.txt",
+        "recording_sha256": "cdc390af62656fbb744e83d90f26d704f263e81e5b0a9f0b22c772776b146735"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Electrodynamix",
+    "imported_objects": 9523,
+    "status": "physics_mismatch",
+    "passed": false,
+    "frame": 16150,
+    "x": 26686.90234375,
+    "y": 126.25650787353516,
+    "mode": "ball",
+    "progress": 80.94298557400667,
+    "recording": "solution_lv15_dp.txt",
+    "recording_sha256": "8dcf5a45da80201c31ce3912a6b378bad3f2805469aca2c777239845ad9e6b98",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 16150,
+        "x": 26686.90234375,
+        "y": 126.25650787353516,
+        "mode": "ball",
+        "progress": 80.94298557400667,
+        "recording": "solution_lv15_dp.txt",
+        "recording_sha256": "8dcf5a45da80201c31ce3912a6b378bad3f2805469aca2c777239845ad9e6b98"
+      },
+      {
+        "passed": false,
+        "frame": 14565,
+        "x": 23593.23046875,
+        "y": 129.3082733154297,
+        "mode": "ship",
+        "progress": 71.55969204959054,
+        "recording": "solution_lv15_coins.txt",
+        "recording_sha256": "6da154c4635333a139b98a0000a07af83e7100718404584451979b464104f6dd"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Hexagon Force",
+    "imported_objects": 10224,
+    "status": "physics_mismatch",
+    "passed": false,
+    "frame": 3064,
+    "x": 4085.78955078125,
+    "y": 245.579833984375,
+    "mode": "ship",
+    "progress": 13.082899618255684,
+    "recording": "solution_lv16_dp.txt",
+    "recording_sha256": "2c07d12c7f9ae2c3aa444c169d4d1591dd4c92f4357ad70df61bb060c9cea694",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 3064,
+        "x": 4085.78955078125,
+        "y": 245.579833984375,
+        "mode": "ship",
+        "progress": 13.082899618255684,
+        "recording": "solution_lv16_dp.txt",
+        "recording_sha256": "2c07d12c7f9ae2c3aa444c169d4d1591dd4c92f4357ad70df61bb060c9cea694"
+      },
+      {
+        "passed": false,
+        "frame": 3064,
+        "x": 4085.78955078125,
+        "y": 245.579833984375,
+        "mode": "ship",
+        "progress": 13.082899618255684,
+        "recording": "solution_lv16_coins.txt",
+        "recording_sha256": "e64dbd37518972066dc2f378f174027bd3e431782d3a6c82eae20d77e6047d70"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Blast Processing",
+    "imported_objects": 11552,
+    "status": "physics_mismatch",
+    "passed": false,
+    "frame": 19768,
+    "x": 25669.833984375,
+    "y": 96.32878112792969,
+    "mode": "ufo",
+    "progress": 83.0738963895631,
+    "recording": "solution_lv17_coins.txt",
+    "recording_sha256": "cb1b1c13c4dd9188873648799088e186beb8ba2db20e098353b01a81d54e02ae",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 19746,
+        "x": 25642.259765625,
+        "y": 69.02210998535156,
+        "mode": "ufo",
+        "progress": 82.9846594356796,
+        "recording": "solution_lv17_dp.txt",
+        "recording_sha256": "0792238de6016e595f52793ac07d27f568652dd9ccb0dcd5ab61b3932e6ea3e4"
+      },
+      {
+        "passed": false,
+        "frame": 19768,
+        "x": 25669.833984375,
+        "y": 96.32878112792969,
+        "mode": "ufo",
+        "progress": 83.0738963895631,
+        "recording": "solution_lv17_coins.txt",
+        "recording_sha256": "cb1b1c13c4dd9188873648799088e186beb8ba2db20e098353b01a81d54e02ae"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Theory of Everything 2",
+    "imported_objects": 14400,
+    "status": "physics_mismatch",
+    "passed": false,
+    "frame": 234,
+    "x": 303.7902526855469,
+    "y": 26.848499298095703,
+    "mode": "cube",
+    "progress": 1.0473286838177591,
+    "recording": "solution_lv18_dp.txt",
+    "recording_sha256": "ab8a5aacc9fcbe58ac8106e873aa577f3bc293812d64069fd933d6a701988ef4",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 234,
+        "x": 303.7902526855469,
+        "y": 26.848499298095703,
+        "mode": "cube",
+        "progress": 1.0473286838177591,
+        "recording": "solution_lv18_dp.txt",
+        "recording_sha256": "ab8a5aacc9fcbe58ac8106e873aa577f3bc293812d64069fd933d6a701988ef4"
+      },
+      {
+        "passed": false,
+        "frame": 234,
+        "x": 303.7902526855469,
+        "y": 26.848499298095703,
+        "mode": "cube",
+        "progress": 1.0473286838177591,
+        "recording": "solution_lv18_coins.txt",
+        "recording_sha256": "d261798e3144114f8b5467e4187f65bb2131ed59af6a378dc05f3da112c6dbc5"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Geometrical Dominator",
+    "imported_objects": 16131,
+    "status": "physics_mismatch",
+    "passed": false,
+    "frame": 735,
+    "x": 955.2230224609375,
+    "y": 40.533897399902344,
+    "mode": "cube",
+    "progress": 2.954602605817932,
+    "recording": "solution_lv19_dp.txt",
+    "recording_sha256": "4ec642834e2f06fa6c76cc470559c4fa8ac739ed47704852337f1ce2bb6f958c",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 735,
+        "x": 955.2230224609375,
+        "y": 40.533897399902344,
+        "mode": "cube",
+        "progress": 2.954602605817932,
+        "recording": "solution_lv19_dp.txt",
+        "recording_sha256": "4ec642834e2f06fa6c76cc470559c4fa8ac739ed47704852337f1ce2bb6f958c"
+      },
+      {
+        "passed": false,
+        "frame": 735,
+        "x": 955.2230224609375,
+        "y": 40.533897399902344,
+        "mode": "cube",
+        "progress": 2.954602605817932,
+        "recording": "solution_lv19_coins.txt",
+        "recording_sha256": "3ff0ec7f8239d8bf779dc508cb2a526e5772134c53211f2898cff98e4b181842"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Deadlocked",
+    "imported_objects": 19494,
+    "status": "physics_mismatch",
+    "passed": false,
+    "frame": 1036,
+    "x": 1344.9898681640625,
+    "y": 217.89962768554688,
+    "mode": "cube",
+    "progress": 3.7833751565796416,
+    "recording": "solution_lv20_dp.txt",
+    "recording_sha256": "a5686af5192081fea8ac4d78def8b3276c8c73f3e35a97b527db5c9a22431110",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 1036,
+        "x": 1344.9898681640625,
+        "y": 217.89962768554688,
+        "mode": "cube",
+        "progress": 3.7833751565796416,
+        "recording": "solution_lv20_dp.txt",
+        "recording_sha256": "a5686af5192081fea8ac4d78def8b3276c8c73f3e35a97b527db5c9a22431110"
+      },
+      {
+        "passed": false,
+        "frame": 1022,
+        "x": 1326.8148193359375,
+        "y": 210.34860229492188,
+        "mode": "cube",
+        "progress": 3.7322498434203584,
+        "recording": "solution_lv20_coins.txt",
+        "recording_sha256": "bc6caa647209f055435bbf580d70c213ad0f82118043285ca3386f2ccf549f17"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Fingerdash",
+    "imported_objects": 27283,
+    "status": "physics_mismatch",
+    "passed": false,
+    "frame": 1255,
+    "x": 1630.299560546875,
+    "y": 145.9919891357422,
+    "mode": "cube",
+    "progress": 5.9586972242210345,
+    "recording": "solution_lv21_dp.txt",
+    "recording_sha256": "9879a2c9046ab690e26dc4d1d1d29f77082a12c815c5102a7e63942ac31dbbcc",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 1255,
+        "x": 1630.299560546875,
+        "y": 145.9919891357422,
+        "mode": "cube",
+        "progress": 5.9586972242210345,
+        "recording": "solution_lv21_dp.txt",
+        "recording_sha256": "9879a2c9046ab690e26dc4d1d1d29f77082a12c815c5102a7e63942ac31dbbcc"
+      },
+      {
+        "passed": false,
+        "frame": 1255,
+        "x": 1630.299560546875,
+        "y": 145.9919891357422,
+        "mode": "cube",
+        "progress": 5.9586972242210345,
+        "recording": "solution_lv21_coins.txt",
+        "recording_sha256": "610e667d5c76c45c1872ce126fd3a32d5ece5cc0d791f84a5835ef0de810bdca"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Dash",
+    "imported_objects": 18329,
+    "status": "physics_mismatch",
+    "passed": false,
+    "frame": 460,
+    "x": 597.1963500976562,
+    "y": 33.24299621582031,
+    "mode": "cube",
+    "progress": 2.488318125406901,
+    "recording": "solution_lv22_coins.txt",
+    "recording_sha256": "7dba9d29871b8e426a18d328f5a29c94eda3dcf85d1aad71ef5ac2be38a542f4",
+    "checks": [
+      {
+        "passed": false,
+        "frame": 414,
+        "x": 537.4755249023438,
+        "y": 33.97020721435547,
+        "mode": "cube",
+        "progress": 2.2394813537597655,
+        "recording": "solution_lv22_dp.txt",
+        "recording_sha256": "bad036a57eccb7e3d171f5d4802b5899e0b04d1f1f76e321598ab0939fd6fb7e"
+      },
+      {
+        "passed": false,
+        "frame": 460,
+        "x": 597.1963500976562,
+        "y": 33.24299621582031,
+        "mode": "cube",
+        "progress": 2.488318125406901,
+        "recording": "solution_lv22_coins.txt",
+        "recording_sha256": "7dba9d29871b8e426a18d328f5a29c94eda3dcf85d1aad71ef5ac2be38a542f4"
+      }
+    ]
+  },
+  {
+    "id": 3001,
+    "name": "The Challenge",
+    "imported_objects": 1215,
+    "status": "original_recording_needed",
+    "passed": false
+  },
+  {
+    "id": 5001,
+    "name": "The Tower",
+    "imported_objects": 9438,
+    "status": "original_recording_needed",
+    "passed": false
+  },
+  {
+    "id": 5002,
+    "name": "The Sewers",
+    "imported_objects": 5870,
+    "status": "original_recording_needed",
+    "passed": false
+  },
+  {
+    "id": 5003,
+    "name": "The Cellar",
+    "imported_objects": 9028,
+    "status": "original_recording_needed",
+    "passed": false
+  },
+  {
+    "id": 5004,
+    "name": "The Secret Hollow",
+    "imported_objects": 15598,
+    "status": "original_recording_needed",
+    "passed": false
+  }
+]

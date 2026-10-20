@@ -1,0 +1,2047 @@
+{
+  "binary_sha256": "dc79491d886eedfc1f2be4ef6ae5c660f86470ee0e442b42ac97d793f031ad52",
+  "method": "Wave speed, updateJump, position integration",
+  "limitation": "Native Wave speed setup, velocity and position integration microprobe.\n\nRuns updateTimeMod's numerical prefix, updateJump, and update's integration\nslice through its position setter. Synthetic position accessors; no level\ncontacts, input scheduling, portal activation, or rendering are executed.\n",
+  "cases": [
+    {
+      "speed": 0.7,
+      "mini": false,
+      "held": false,
+      "upside": false,
+      "x": 0,
+      "native_vy": -4.186,
+      "native_position": [
+        1.046500325202942,
+        148.95350646972656
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": false,
+      "held": false,
+      "upside": false,
+      "x": 1000,
+      "native_vy": -4.186,
+      "native_position": [
+        1001.0465087890625,
+        148.95350646972656
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": false,
+      "held": false,
+      "upside": false,
+      "x": 25000,
+      "native_vy": -4.186,
+      "native_position": [
+        25001.046875,
+        148.95350646972656
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": false,
+      "held": false,
+      "upside": true,
+      "x": 0,
+      "native_vy": 4.186,
+      "native_position": [
+        1.046500325202942,
+        151.04649353027344
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": false,
+      "held": false,
+      "upside": true,
+      "x": 1000,
+      "native_vy": 4.186,
+      "native_position": [
+        1001.0465087890625,
+        151.04649353027344
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": false,
+      "held": false,
+      "upside": true,
+      "x": 25000,
+      "native_vy": 4.186,
+      "native_position": [
+        25001.046875,
+        151.04649353027344
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": false,
+      "held": true,
+      "upside": false,
+      "x": 0,
+      "native_vy": 4.186,
+      "native_position": [
+        1.046500325202942,
+        151.04649353027344
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": false,
+      "held": true,
+      "upside": false,
+      "x": 1000,
+      "native_vy": 4.186,
+      "native_position": [
+        1001.0465087890625,
+        151.04649353027344
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": false,
+      "held": true,
+      "upside": false,
+      "x": 25000,
+      "native_vy": 4.186,
+      "native_position": [
+        25001.046875,
+        151.04649353027344
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": false,
+      "held": true,
+      "upside": true,
+      "x": 0,
+      "native_vy": -4.186,
+      "native_position": [
+        1.046500325202942,
+        148.95350646972656
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": false,
+      "held": true,
+      "upside": true,
+      "x": 1000,
+      "native_vy": -4.186,
+      "native_position": [
+        1001.0465087890625,
+        148.95350646972656
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": false,
+      "held": true,
+      "upside": true,
+      "x": 25000,
+      "native_vy": -4.186,
+      "native_position": [
+        25001.046875,
+        148.95350646972656
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": true,
+      "held": false,
+      "upside": false,
+      "x": 0,
+      "native_vy": -4.186,
+      "native_position": [
+        1.046500325202942,
+        147.90699768066406
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": true,
+      "held": false,
+      "upside": false,
+      "x": 1000,
+      "native_vy": -4.186,
+      "native_position": [
+        1001.0465087890625,
+        147.90699768066406
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": true,
+      "held": false,
+      "upside": false,
+      "x": 25000,
+      "native_vy": -4.186,
+      "native_position": [
+        25001.046875,
+        147.90699768066406
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": true,
+      "held": false,
+      "upside": true,
+      "x": 0,
+      "native_vy": 4.186,
+      "native_position": [
+        1.046500325202942,
+        152.09300231933594
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": true,
+      "held": false,
+      "upside": true,
+      "x": 1000,
+      "native_vy": 4.186,
+      "native_position": [
+        1001.0465087890625,
+        152.09300231933594
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": true,
+      "held": false,
+      "upside": true,
+      "x": 25000,
+      "native_vy": 4.186,
+      "native_position": [
+        25001.046875,
+        152.09300231933594
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": true,
+      "held": true,
+      "upside": false,
+      "x": 0,
+      "native_vy": 4.186,
+      "native_position": [
+        1.046500325202942,
+        152.09300231933594
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": true,
+      "held": true,
+      "upside": false,
+      "x": 1000,
+      "native_vy": 4.186,
+      "native_position": [
+        1001.0465087890625,
+        152.09300231933594
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": true,
+      "held": true,
+      "upside": false,
+      "x": 25000,
+      "native_vy": 4.186,
+      "native_position": [
+        25001.046875,
+        152.09300231933594
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": true,
+      "held": true,
+      "upside": true,
+      "x": 0,
+      "native_vy": -4.186,
+      "native_position": [
+        1.046500325202942,
+        147.90699768066406
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": true,
+      "held": true,
+      "upside": true,
+      "x": 1000,
+      "native_vy": -4.186,
+      "native_position": [
+        1001.0465087890625,
+        147.90699768066406
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.7,
+      "mini": true,
+      "held": true,
+      "upside": true,
+      "x": 25000,
+      "native_vy": -4.186,
+      "native_position": [
+        25001.046875,
+        147.90699768066406
+      ],
+      "native_speed_settings": [
+        5.980002,
+        10.620032,
+        0.940199
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": false,
+      "held": false,
+      "upside": false,
+      "x": 0,
+      "native_vy": -5.193,
+      "native_position": [
+        1.298250436782837,
+        148.70175170898438
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": false,
+      "held": false,
+      "upside": false,
+      "x": 1000,
+      "native_vy": -5.193,
+      "native_position": [
+        1001.2982788085938,
+        148.70175170898438
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": false,
+      "held": false,
+      "upside": false,
+      "x": 25000,
+      "native_vy": -5.193,
+      "native_position": [
+        25001.298828125,
+        148.70175170898438
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": false,
+      "held": false,
+      "upside": true,
+      "x": 0,
+      "native_vy": 5.193,
+      "native_position": [
+        1.298250436782837,
+        151.29824829101562
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": false,
+      "held": false,
+      "upside": true,
+      "x": 1000,
+      "native_vy": 5.193,
+      "native_position": [
+        1001.2982788085938,
+        151.29824829101562
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": false,
+      "held": false,
+      "upside": true,
+      "x": 25000,
+      "native_vy": 5.193,
+      "native_position": [
+        25001.298828125,
+        151.29824829101562
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": false,
+      "held": true,
+      "upside": false,
+      "x": 0,
+      "native_vy": 5.193,
+      "native_position": [
+        1.298250436782837,
+        151.29824829101562
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": false,
+      "held": true,
+      "upside": false,
+      "x": 1000,
+      "native_vy": 5.193,
+      "native_position": [
+        1001.2982788085938,
+        151.29824829101562
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": false,
+      "held": true,
+      "upside": false,
+      "x": 25000,
+      "native_vy": 5.193,
+      "native_position": [
+        25001.298828125,
+        151.29824829101562
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": false,
+      "held": true,
+      "upside": true,
+      "x": 0,
+      "native_vy": -5.193,
+      "native_position": [
+        1.298250436782837,
+        148.70175170898438
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": false,
+      "held": true,
+      "upside": true,
+      "x": 1000,
+      "native_vy": -5.193,
+      "native_position": [
+        1001.2982788085938,
+        148.70175170898438
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": false,
+      "held": true,
+      "upside": true,
+      "x": 25000,
+      "native_vy": -5.193,
+      "native_position": [
+        25001.298828125,
+        148.70175170898438
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": true,
+      "held": false,
+      "upside": false,
+      "x": 0,
+      "native_vy": -5.193,
+      "native_position": [
+        1.298250436782837,
+        147.40350341796875
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": true,
+      "held": false,
+      "upside": false,
+      "x": 1000,
+      "native_vy": -5.193,
+      "native_position": [
+        1001.2982788085938,
+        147.40350341796875
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": true,
+      "held": false,
+      "upside": false,
+      "x": 25000,
+      "native_vy": -5.193,
+      "native_position": [
+        25001.298828125,
+        147.40350341796875
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": true,
+      "held": false,
+      "upside": true,
+      "x": 0,
+      "native_vy": 5.193,
+      "native_position": [
+        1.298250436782837,
+        152.59649658203125
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": true,
+      "held": false,
+      "upside": true,
+      "x": 1000,
+      "native_vy": 5.193,
+      "native_position": [
+        1001.2982788085938,
+        152.59649658203125
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": true,
+      "held": false,
+      "upside": true,
+      "x": 25000,
+      "native_vy": 5.193,
+      "native_position": [
+        25001.298828125,
+        152.59649658203125
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": true,
+      "held": true,
+      "upside": false,
+      "x": 0,
+      "native_vy": 5.193,
+      "native_position": [
+        1.298250436782837,
+        152.59649658203125
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": true,
+      "held": true,
+      "upside": false,
+      "x": 1000,
+      "native_vy": 5.193,
+      "native_position": [
+        1001.2982788085938,
+        152.59649658203125
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": true,
+      "held": true,
+      "upside": false,
+      "x": 25000,
+      "native_vy": 5.193,
+      "native_position": [
+        25001.298828125,
+        152.59649658203125
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": true,
+      "held": true,
+      "upside": true,
+      "x": 0,
+      "native_vy": -5.193,
+      "native_position": [
+        1.298250436782837,
+        147.40350341796875
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": true,
+      "held": true,
+      "upside": true,
+      "x": 1000,
+      "native_vy": -5.193,
+      "native_position": [
+        1001.2982788085938,
+        147.40350341796875
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 0.9,
+      "mini": true,
+      "held": true,
+      "upside": true,
+      "x": 25000,
+      "native_vy": -5.193,
+      "native_position": [
+        25001.298828125,
+        147.40350341796875
+      ],
+      "native_speed_settings": [
+        5.7700018882751465,
+        11.180031776428223,
+        0.9581990242004395
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": false,
+      "held": false,
+      "upside": false,
+      "x": 0,
+      "native_vy": -6.457,
+      "native_position": [
+        1.6142505407333374,
+        148.3857421875
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": false,
+      "held": false,
+      "upside": false,
+      "x": 1000,
+      "native_vy": -6.457,
+      "native_position": [
+        1001.6142578125,
+        148.3857421875
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": false,
+      "held": false,
+      "upside": false,
+      "x": 25000,
+      "native_vy": -6.457,
+      "native_position": [
+        25001.61328125,
+        148.3857421875
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": false,
+      "held": false,
+      "upside": true,
+      "x": 0,
+      "native_vy": 6.457,
+      "native_position": [
+        1.6142505407333374,
+        151.6142578125
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": false,
+      "held": false,
+      "upside": true,
+      "x": 1000,
+      "native_vy": 6.457,
+      "native_position": [
+        1001.6142578125,
+        151.6142578125
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": false,
+      "held": false,
+      "upside": true,
+      "x": 25000,
+      "native_vy": 6.457,
+      "native_position": [
+        25001.61328125,
+        151.6142578125
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": false,
+      "held": true,
+      "upside": false,
+      "x": 0,
+      "native_vy": 6.457,
+      "native_position": [
+        1.6142505407333374,
+        151.6142578125
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": false,
+      "held": true,
+      "upside": false,
+      "x": 1000,
+      "native_vy": 6.457,
+      "native_position": [
+        1001.6142578125,
+        151.6142578125
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": false,
+      "held": true,
+      "upside": false,
+      "x": 25000,
+      "native_vy": 6.457,
+      "native_position": [
+        25001.61328125,
+        151.6142578125
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": false,
+      "held": true,
+      "upside": true,
+      "x": 0,
+      "native_vy": -6.457,
+      "native_position": [
+        1.6142505407333374,
+        148.3857421875
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": false,
+      "held": true,
+      "upside": true,
+      "x": 1000,
+      "native_vy": -6.457,
+      "native_position": [
+        1001.6142578125,
+        148.3857421875
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": false,
+      "held": true,
+      "upside": true,
+      "x": 25000,
+      "native_vy": -6.457,
+      "native_position": [
+        25001.61328125,
+        148.3857421875
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": true,
+      "held": false,
+      "upside": false,
+      "x": 0,
+      "native_vy": -6.457,
+      "native_position": [
+        1.6142505407333374,
+        146.77149963378906
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": true,
+      "held": false,
+      "upside": false,
+      "x": 1000,
+      "native_vy": -6.457,
+      "native_position": [
+        1001.6142578125,
+        146.77149963378906
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": true,
+      "held": false,
+      "upside": false,
+      "x": 25000,
+      "native_vy": -6.457,
+      "native_position": [
+        25001.61328125,
+        146.77149963378906
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": true,
+      "held": false,
+      "upside": true,
+      "x": 0,
+      "native_vy": 6.457,
+      "native_position": [
+        1.6142505407333374,
+        153.22850036621094
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": true,
+      "held": false,
+      "upside": true,
+      "x": 1000,
+      "native_vy": 6.457,
+      "native_position": [
+        1001.6142578125,
+        153.22850036621094
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": true,
+      "held": false,
+      "upside": true,
+      "x": 25000,
+      "native_vy": 6.457,
+      "native_position": [
+        25001.61328125,
+        153.22850036621094
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": true,
+      "held": true,
+      "upside": false,
+      "x": 0,
+      "native_vy": 6.457,
+      "native_position": [
+        1.6142505407333374,
+        153.22850036621094
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": true,
+      "held": true,
+      "upside": false,
+      "x": 1000,
+      "native_vy": 6.457,
+      "native_position": [
+        1001.6142578125,
+        153.22850036621094
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": true,
+      "held": true,
+      "upside": false,
+      "x": 25000,
+      "native_vy": 6.457,
+      "native_position": [
+        25001.61328125,
+        153.22850036621094
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": true,
+      "held": true,
+      "upside": true,
+      "x": 0,
+      "native_vy": -6.457,
+      "native_position": [
+        1.6142505407333374,
+        146.77149963378906
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": true,
+      "held": true,
+      "upside": true,
+      "x": 1000,
+      "native_vy": -6.457,
+      "native_position": [
+        1001.6142578125,
+        146.77149963378906
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.1,
+      "mini": true,
+      "held": true,
+      "upside": true,
+      "x": 25000,
+      "native_vy": -6.457,
+      "native_position": [
+        25001.61328125,
+        146.77149963378906
+      ],
+      "native_speed_settings": [
+        5.870002,
+        11.420032,
+        0.957199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": false,
+      "held": false,
+      "upside": false,
+      "x": 0,
+      "native_vy": -7.8,
+      "native_position": [
+        1.950000524520874,
+        148.0500030517578
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": false,
+      "held": false,
+      "upside": false,
+      "x": 1000,
+      "native_vy": -7.8,
+      "native_position": [
+        1001.9500122070312,
+        148.0500030517578
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": false,
+      "held": false,
+      "upside": false,
+      "x": 25000,
+      "native_vy": -7.8,
+      "native_position": [
+        25001.94921875,
+        148.0500030517578
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": false,
+      "held": false,
+      "upside": true,
+      "x": 0,
+      "native_vy": 7.8,
+      "native_position": [
+        1.950000524520874,
+        151.9499969482422
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": false,
+      "held": false,
+      "upside": true,
+      "x": 1000,
+      "native_vy": 7.8,
+      "native_position": [
+        1001.9500122070312,
+        151.9499969482422
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": false,
+      "held": false,
+      "upside": true,
+      "x": 25000,
+      "native_vy": 7.8,
+      "native_position": [
+        25001.94921875,
+        151.9499969482422
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": false,
+      "held": true,
+      "upside": false,
+      "x": 0,
+      "native_vy": 7.8,
+      "native_position": [
+        1.950000524520874,
+        151.9499969482422
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": false,
+      "held": true,
+      "upside": false,
+      "x": 1000,
+      "native_vy": 7.8,
+      "native_position": [
+        1001.9500122070312,
+        151.9499969482422
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": false,
+      "held": true,
+      "upside": false,
+      "x": 25000,
+      "native_vy": 7.8,
+      "native_position": [
+        25001.94921875,
+        151.9499969482422
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": false,
+      "held": true,
+      "upside": true,
+      "x": 0,
+      "native_vy": -7.8,
+      "native_position": [
+        1.950000524520874,
+        148.0500030517578
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": false,
+      "held": true,
+      "upside": true,
+      "x": 1000,
+      "native_vy": -7.8,
+      "native_position": [
+        1001.9500122070312,
+        148.0500030517578
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": false,
+      "held": true,
+      "upside": true,
+      "x": 25000,
+      "native_vy": -7.8,
+      "native_position": [
+        25001.94921875,
+        148.0500030517578
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": true,
+      "held": false,
+      "upside": false,
+      "x": 0,
+      "native_vy": -7.8,
+      "native_position": [
+        1.950000524520874,
+        146.10000610351562
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": true,
+      "held": false,
+      "upside": false,
+      "x": 1000,
+      "native_vy": -7.8,
+      "native_position": [
+        1001.9500122070312,
+        146.10000610351562
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": true,
+      "held": false,
+      "upside": false,
+      "x": 25000,
+      "native_vy": -7.8,
+      "native_position": [
+        25001.94921875,
+        146.10000610351562
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": true,
+      "held": false,
+      "upside": true,
+      "x": 0,
+      "native_vy": 7.8,
+      "native_position": [
+        1.950000524520874,
+        153.89999389648438
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": true,
+      "held": false,
+      "upside": true,
+      "x": 1000,
+      "native_vy": 7.8,
+      "native_position": [
+        1001.9500122070312,
+        153.89999389648438
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": true,
+      "held": false,
+      "upside": true,
+      "x": 25000,
+      "native_vy": 7.8,
+      "native_position": [
+        25001.94921875,
+        153.89999389648438
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": true,
+      "held": true,
+      "upside": false,
+      "x": 0,
+      "native_vy": 7.8,
+      "native_position": [
+        1.950000524520874,
+        153.89999389648438
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": true,
+      "held": true,
+      "upside": false,
+      "x": 1000,
+      "native_vy": 7.8,
+      "native_position": [
+        1001.9500122070312,
+        153.89999389648438
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": true,
+      "held": true,
+      "upside": false,
+      "x": 25000,
+      "native_vy": 7.8,
+      "native_position": [
+        25001.94921875,
+        153.89999389648438
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": true,
+      "held": true,
+      "upside": true,
+      "x": 0,
+      "native_vy": -7.8,
+      "native_position": [
+        1.950000524520874,
+        146.10000610351562
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": true,
+      "held": true,
+      "upside": true,
+      "x": 1000,
+      "native_vy": -7.8,
+      "native_position": [
+        1001.9500122070312,
+        146.10000610351562
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.3,
+      "mini": true,
+      "held": true,
+      "upside": true,
+      "x": 25000,
+      "native_vy": -7.8,
+      "native_position": [
+        25001.94921875,
+        146.10000610351562
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": false,
+      "held": false,
+      "upside": false,
+      "x": 0,
+      "native_vy": -9.6,
+      "native_position": [
+        2.400000810623169,
+        147.60000610351562
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": false,
+      "held": false,
+      "upside": false,
+      "x": 1000,
+      "native_vy": -9.6,
+      "native_position": [
+        1002.4000244140625,
+        147.60000610351562
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": false,
+      "held": false,
+      "upside": false,
+      "x": 25000,
+      "native_vy": -9.6,
+      "native_position": [
+        25002.400390625,
+        147.60000610351562
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": false,
+      "held": false,
+      "upside": true,
+      "x": 0,
+      "native_vy": 9.6,
+      "native_position": [
+        2.400000810623169,
+        152.39999389648438
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": false,
+      "held": false,
+      "upside": true,
+      "x": 1000,
+      "native_vy": 9.6,
+      "native_position": [
+        1002.4000244140625,
+        152.39999389648438
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": false,
+      "held": false,
+      "upside": true,
+      "x": 25000,
+      "native_vy": 9.6,
+      "native_position": [
+        25002.400390625,
+        152.39999389648438
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": false,
+      "held": true,
+      "upside": false,
+      "x": 0,
+      "native_vy": 9.6,
+      "native_position": [
+        2.400000810623169,
+        152.39999389648438
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": false,
+      "held": true,
+      "upside": false,
+      "x": 1000,
+      "native_vy": 9.6,
+      "native_position": [
+        1002.4000244140625,
+        152.39999389648438
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": false,
+      "held": true,
+      "upside": false,
+      "x": 25000,
+      "native_vy": 9.6,
+      "native_position": [
+        25002.400390625,
+        152.39999389648438
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": false,
+      "held": true,
+      "upside": true,
+      "x": 0,
+      "native_vy": -9.6,
+      "native_position": [
+        2.400000810623169,
+        147.60000610351562
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": false,
+      "held": true,
+      "upside": true,
+      "x": 1000,
+      "native_vy": -9.6,
+      "native_position": [
+        1002.4000244140625,
+        147.60000610351562
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": false,
+      "held": true,
+      "upside": true,
+      "x": 25000,
+      "native_vy": -9.6,
+      "native_position": [
+        25002.400390625,
+        147.60000610351562
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": true,
+      "held": false,
+      "upside": false,
+      "x": 0,
+      "native_vy": -9.6,
+      "native_position": [
+        2.400000810623169,
+        145.1999969482422
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": true,
+      "held": false,
+      "upside": false,
+      "x": 1000,
+      "native_vy": -9.6,
+      "native_position": [
+        1002.4000244140625,
+        145.1999969482422
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": true,
+      "held": false,
+      "upside": false,
+      "x": 25000,
+      "native_vy": -9.6,
+      "native_position": [
+        25002.400390625,
+        145.1999969482422
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": true,
+      "held": false,
+      "upside": true,
+      "x": 0,
+      "native_vy": 9.6,
+      "native_position": [
+        2.400000810623169,
+        154.8000030517578
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": true,
+      "held": false,
+      "upside": true,
+      "x": 1000,
+      "native_vy": 9.6,
+      "native_position": [
+        1002.4000244140625,
+        154.8000030517578
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": true,
+      "held": false,
+      "upside": true,
+      "x": 25000,
+      "native_vy": 9.6,
+      "native_position": [
+        25002.400390625,
+        154.8000030517578
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": true,
+      "held": true,
+      "upside": false,
+      "x": 0,
+      "native_vy": 9.6,
+      "native_position": [
+        2.400000810623169,
+        154.8000030517578
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": true,
+      "held": true,
+      "upside": false,
+      "x": 1000,
+      "native_vy": 9.6,
+      "native_position": [
+        1002.4000244140625,
+        154.8000030517578
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": true,
+      "held": true,
+      "upside": false,
+      "x": 25000,
+      "native_vy": 9.6,
+      "native_position": [
+        25002.400390625,
+        154.8000030517578
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": true,
+      "held": true,
+      "upside": true,
+      "x": 0,
+      "native_vy": -9.6,
+      "native_position": [
+        2.400000810623169,
+        145.1999969482422
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": true,
+      "held": true,
+      "upside": true,
+      "x": 1000,
+      "native_vy": -9.6,
+      "native_position": [
+        1002.4000244140625,
+        145.1999969482422
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    },
+    {
+      "speed": 1.6,
+      "mini": true,
+      "held": true,
+      "upside": true,
+      "x": 25000,
+      "native_vy": -9.6,
+      "native_position": [
+        25002.400390625,
+        145.1999969482422
+      ],
+      "native_speed_settings": [
+        6.000002,
+        11.230032,
+        0.961199
+      ]
+    }
+  ]
+}

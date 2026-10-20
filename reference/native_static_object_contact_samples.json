@@ -1,0 +1,1091 @@
+{
+  "binary_sha256": "dc79491d886eedfc1f2be4ef6ae5c660f86470ee0e442b42ac97d793f031ad52",
+  "method": "PlayerObject::collidedWithObjectInternal",
+  "limitation": "Isolated contact with synthetic accessors and optional static solid object; not full contact pipeline or level parity",
+  "cases": [
+    {
+      "x": 1030,
+      "y": 120,
+      "old_y": 121.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 120.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 120,
+      "old_y": 118.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 120.0,
+        "vy": 5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 125,
+      "old_y": 126.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 125.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 125,
+      "old_y": 123.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 125.0,
+        "vy": 5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 130,
+      "old_y": 131.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 130.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 130,
+      "old_y": 128.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 130.0,
+        "vy": 5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 135,
+      "old_y": 136.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 135.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 135,
+      "old_y": 133.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 135.0,
+        "vy": 5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 140,
+      "old_y": 141.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "unsupported": "Unsupported helper call 10038137c -> 100300128"
+    },
+    {
+      "x": 1030,
+      "y": 140,
+      "old_y": 138.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "unsupported": "Unsupported helper call 10038137c -> 100300128"
+    },
+    {
+      "x": 1030,
+      "y": 145,
+      "old_y": 146.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "unsupported": "Unsupported helper call 10038137c -> 100300128"
+    },
+    {
+      "x": 1030,
+      "y": 145,
+      "old_y": 143.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "unsupported": "Unsupported helper call 10038137c -> 100300128"
+    },
+    {
+      "x": 1030,
+      "y": 150,
+      "old_y": 151.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "unsupported": "Unsupported helper call 10038137c -> 100300128"
+    },
+    {
+      "x": 1030,
+      "y": 150,
+      "old_y": 148.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "unsupported": "Unsupported helper call 10038137c -> 100300128"
+    },
+    {
+      "x": 1030,
+      "y": 155,
+      "old_y": 156.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "unsupported": "Unsupported helper call 10038137c -> 100300128"
+    },
+    {
+      "x": 1030,
+      "y": 155,
+      "old_y": 153.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "unsupported": "Unsupported helper call 10038137c -> 100300128"
+    },
+    {
+      "x": 1030,
+      "y": 160,
+      "old_y": 161.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "unsupported": "Unsupported helper call 10038137c -> 100300128"
+    },
+    {
+      "x": 1030,
+      "y": 160,
+      "old_y": 158.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "unsupported": "Unsupported helper call 10038137c -> 100300128"
+    },
+    {
+      "x": 1030,
+      "y": 165,
+      "old_y": 166.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "unsupported": "Unsupported helper call 10038137c -> 100300128"
+    },
+    {
+      "x": 1030,
+      "y": 165,
+      "old_y": 163.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "unsupported": "Unsupported helper call 10038137c -> 100300128"
+    },
+    {
+      "x": 1030,
+      "y": 170,
+      "old_y": 171.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "unsupported": "Unsupported helper call 10038137c -> 100300128"
+    },
+    {
+      "x": 1030,
+      "y": 170,
+      "old_y": 168.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "unsupported": "Unsupported helper call 10038137c -> 100300128"
+    },
+    {
+      "x": 1030,
+      "y": 175,
+      "old_y": 176.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 185.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 175,
+      "old_y": 173.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 175.0,
+        "vy": 5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 180,
+      "old_y": 181.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 185.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 180,
+      "old_y": 178.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 180.0,
+        "vy": 5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 185,
+      "old_y": 186.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 185.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 185,
+      "old_y": 183.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 185.0,
+        "vy": 5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 190,
+      "old_y": 191.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 185.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 190,
+      "old_y": 188.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": false,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 190.0,
+        "vy": 5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 120,
+      "old_y": 121.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 120.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 120,
+      "old_y": 118.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 125.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 125,
+      "old_y": 126.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 125.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 125,
+      "old_y": 123.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 125.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 130,
+      "old_y": 131.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 130.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 130,
+      "old_y": 128.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 125.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 135,
+      "old_y": 136.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 135.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 135,
+      "old_y": 133.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 125.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 140,
+      "old_y": 141.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 140.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 140,
+      "old_y": 138.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 125.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 145,
+      "old_y": 146.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 145.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 145,
+      "old_y": 143.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 125.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 150,
+      "old_y": 151.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 150.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 150,
+      "old_y": 148.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 125.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 155,
+      "old_y": 156.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 155.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 155,
+      "old_y": 153.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 125.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 160,
+      "old_y": 161.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 160.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 160,
+      "old_y": 158.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 125.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 165,
+      "old_y": 166.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 165.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 165,
+      "old_y": 163.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 125.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 170,
+      "old_y": 171.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 170.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 170,
+      "old_y": 168.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 125.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 175,
+      "old_y": 176.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 175.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 175,
+      "old_y": 173.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 125.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 180,
+      "old_y": 181.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 180.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 180,
+      "old_y": 178.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 125.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 185,
+      "old_y": 186.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 185.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 185,
+      "old_y": 183.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 125.0,
+        "vy": 0.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 190,
+      "old_y": 191.125,
+      "vy": -5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 0,
+        "y": 190.0,
+        "vy": -5.0
+      }
+    },
+    {
+      "x": 1030,
+      "y": 190,
+      "old_y": 188.875,
+      "vy": 5,
+      "rect": [
+        1020,
+        140,
+        30,
+        30
+      ],
+      "upside": true,
+      "object_mode": true,
+      "native": {
+        "result": 1,
+        "y": 125.0,
+        "vy": 0.0
+      }
+    }
+  ]
+}

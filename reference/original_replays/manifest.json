@@ -1,0 +1,563 @@
+[
+  {
+    "level_id": 1,
+    "name": "Stereo Madness",
+    "file": "Stereo Madness.gdr2",
+    "rate": 240.0,
+    "author": "SovenokHacker",
+    "sha256": "e50b284fab0c2776c8f9c0e661134222cd28d9272244b37ff148c42c97ac9c5e",
+    "url": "https://github.com/Sovenok-Hacker/EclipseGDMainMacros"
+  },
+  {
+    "level_id": 2,
+    "name": "Back On Track",
+    "file": "Back On Track.gdr2",
+    "rate": 240.0,
+    "author": "SovenokHacker",
+    "sha256": "f1326b92e0c1f887c38b001b4ed303cb145cf4776b879da43b58750cc6d8b7db",
+    "url": "https://github.com/Sovenok-Hacker/EclipseGDMainMacros"
+  },
+  {
+    "level_id": 3,
+    "name": "Polargeist",
+    "file": "Polargeist.gdr2",
+    "rate": 240.0,
+    "author": "SovenokHacker",
+    "sha256": "503f5cd3614900a039736dae584ebdd851cdc702226e9a67fe0cd0ba384fe7c3",
+    "url": "https://github.com/Sovenok-Hacker/EclipseGDMainMacros"
+  },
+  {
+    "level_id": 4,
+    "name": "Dry Out",
+    "file": "Dry Out.gdr2",
+    "rate": 240.0,
+    "author": "SovenokHacker",
+    "sha256": "4d9552b70127c7bd3137de3c745a99afaa4b5389a7590a5e28c41c1125c58f60",
+    "url": "https://github.com/Sovenok-Hacker/EclipseGDMainMacros"
+  },
+  {
+    "level_id": 5,
+    "name": "Base After Base",
+    "file": "Base After Base.gdr2",
+    "rate": 240.0,
+    "author": "SovenokHacker",
+    "sha256": "2632fe74589ad4616aeeba7c4621578d66011c8483b26a8c86d2112fbc7fadd2",
+    "url": "https://github.com/Sovenok-Hacker/EclipseGDMainMacros"
+  },
+  {
+    "level_id": 6,
+    "name": "Cant Let Go",
+    "file": "Cant Let Go.gdr2",
+    "rate": 240.0,
+    "author": "SovenokHacker",
+    "sha256": "4c3e66f606f7b9594067c7a4174b4193a2a030cdb9fb64340e387ff491b4b44b",
+    "url": "https://github.com/Sovenok-Hacker/EclipseGDMainMacros"
+  },
+  {
+    "level_id": 7,
+    "name": "Jumper",
+    "file": "Jumper.gdr2",
+    "rate": 240.0,
+    "author": "SovenokHacker",
+    "sha256": "2744ace42b7292ed842ac85813a623ac739da11e6e5027b581ad5c365d50b26c",
+    "url": "https://github.com/Sovenok-Hacker/EclipseGDMainMacros"
+  },
+  {
+    "level_id": 8,
+    "name": "Time Machine",
+    "file": "Time Machine.gdr2",
+    "rate": 240.0,
+    "author": "SovenokHacker",
+    "sha256": "026018bd6447d97d302b277f80db557782edda1b90cff721a04e1591010400f7",
+    "url": "https://github.com/Sovenok-Hacker/EclipseGDMainMacros"
+  },
+  {
+    "level_id": 9,
+    "name": "Cycles",
+    "file": "Cycles.gdr2",
+    "rate": 240.0,
+    "author": "SovenokHacker",
+    "sha256": "1dff3087a658359b5eff5400f3995293e731ef07f39885181a1d25e185953b34",
+    "url": "https://github.com/Sovenok-Hacker/EclipseGDMainMacros"
+  },
+  {
+    "level_id": 10,
+    "name": "xStep",
+    "file": "xStep.gdr2",
+    "rate": 240.0,
+    "author": "SovenokHacker",
+    "sha256": "c8da59cf28365d31a48509163119bb0e3c8cc7d9dce302ebb8a84bba27e69ad6",
+    "url": "https://github.com/Sovenok-Hacker/EclipseGDMainMacros"
+  },
+  {
+    "level_id": 11,
+    "name": "Clutterfunk",
+    "file": "Clutterfunk.gdr2",
+    "rate": 240.0,
+    "author": "SovenokHacker",
+    "sha256": "1eb9ce93b8776e36c812b83f11d9c4c762fd4fa856bb4a8221151d4c6864e8d7",
+    "url": "https://github.com/Sovenok-Hacker/EclipseGDMainMacros"
+  },
+  {
+    "level_id": 1,
+    "name": "solution_lv1_dp",
+    "file": "solution_lv1_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "068fec1da330a21a557a43c41083061446f90367449bfbf41961d0633b2e102f",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 2,
+    "name": "solution_lv2_dp",
+    "file": "solution_lv2_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "266a53bd1bc6e1c75bd2231486b54830135304df9a8d6b970307767281cd13f1",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 3,
+    "name": "solution_lv3_dp",
+    "file": "solution_lv3_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "25452fa30721bc5910921d0a2717fa02caa3e47ed6030ba786af584b8a225ef1",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 4,
+    "name": "solution_lv4_dp",
+    "file": "solution_lv4_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "a9025d476face492deef8cc14f00769ef2dcf8df5ca793d3ffbebd3b925008ce",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 5,
+    "name": "solution_lv5_dp",
+    "file": "solution_lv5_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "460b8bb52e303ccd6bcbe56d31926caac2fd56ffff44ce7a040a8dbb7d36e942",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 6,
+    "name": "solution_lv6_dp",
+    "file": "solution_lv6_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "7c58b99b8810e9dac96e741aebaffbe8225bb420e8ff2ccb93a876ab8d26b9f7",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 7,
+    "name": "solution_lv7_dp",
+    "file": "solution_lv7_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "a9549e3f5fa046b99a504af79e713bffe33734e511baf87471b51ac434716bc9",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 8,
+    "name": "solution_lv8_dp",
+    "file": "solution_lv8_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "e3bedd12b938d9e53b45b2841d35614beb28227240f42392e5aa8d26d7e7e463",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 9,
+    "name": "solution_lv9_dp",
+    "file": "solution_lv9_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "90453e6cef1ecd75f4a9735e3cb21f8260df910f579200d891c9b00c8907ab72",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 10,
+    "name": "solution_lv10_dp",
+    "file": "solution_lv10_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "c5f88c9689c7a5c6918ad4eba7a3aa5981b086d947224f5f9930dc2602f42b0b",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 11,
+    "name": "solution_lv11_dp",
+    "file": "solution_lv11_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "d934a2b2bc584a9fb6822cf5d4c3e9440742e96cedfd0103ad301a3c510fcec0",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 12,
+    "name": "solution_lv12_dp",
+    "file": "solution_lv12_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "afbddb55b091512b7a2036eca7f9be371227be1f8d7626376ea53629badf2022",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 13,
+    "name": "solution_lv13_dp",
+    "file": "solution_lv13_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "7e17db6504c85024b827b56fff74f9c6eb09579ea0e800eb7002293d9330eeea",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 14,
+    "name": "solution_lv14_dp",
+    "file": "solution_lv14_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "c81c531fd6b1d9baa4af128079b11f12c8485216442d196043103e0fd7fc59bf",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 15,
+    "name": "solution_lv15_dp",
+    "file": "solution_lv15_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "8dcf5a45da80201c31ce3912a6b378bad3f2805469aca2c777239845ad9e6b98",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 16,
+    "name": "solution_lv16_dp",
+    "file": "solution_lv16_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "2c07d12c7f9ae2c3aa444c169d4d1591dd4c92f4357ad70df61bb060c9cea694",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 17,
+    "name": "solution_lv17_dp",
+    "file": "solution_lv17_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "0792238de6016e595f52793ac07d27f568652dd9ccb0dcd5ab61b3932e6ea3e4",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 18,
+    "name": "solution_lv18_dp",
+    "file": "solution_lv18_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "ab8a5aacc9fcbe58ac8106e873aa577f3bc293812d64069fd933d6a701988ef4",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 19,
+    "name": "solution_lv19_dp",
+    "file": "solution_lv19_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "4ec642834e2f06fa6c76cc470559c4fa8ac739ed47704852337f1ce2bb6f958c",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 20,
+    "name": "solution_lv20_dp",
+    "file": "solution_lv20_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "a5686af5192081fea8ac4d78def8b3276c8c73f3e35a97b527db5c9a22431110",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 21,
+    "name": "solution_lv21_dp",
+    "file": "solution_lv21_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "9879a2c9046ab690e26dc4d1d1d29f77082a12c815c5102a7e63942ac31dbbcc",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 22,
+    "name": "solution_lv22_dp",
+    "file": "solution_lv22_dp.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "bad036a57eccb7e3d171f5d4802b5899e0b04d1f1f76e321598ab0939fd6fb7e",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209"
+  },
+  {
+    "level_id": 1,
+    "name": "solution_lv1_coins",
+    "file": "solution_lv1_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "f4b48c0431cf0d2576579bf28248d2ac9da82eace414d0533b107c0bc96adee9",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 2,
+    "name": "solution_lv2_coins",
+    "file": "solution_lv2_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "c2c7f28b029125d3ee62217ea43a3ce25acbf1dccc0548a49d29393f2ac19ea7",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 3,
+    "name": "solution_lv3_coins",
+    "file": "solution_lv3_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "9e9caae866b7529bace29a32534fc29d802ff929ce2d039c0c78de9d74ba3bc8",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 4,
+    "name": "solution_lv4_coins",
+    "file": "solution_lv4_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "9533221a2b26d642cd624ba3e121827e8aa5edcc1b46d182f7c1374bd12288ce",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 5,
+    "name": "solution_lv5_coins",
+    "file": "solution_lv5_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "5109761f910f61683394a032a51c73699d33f535b2a38a7855e1c5231a804e73",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 6,
+    "name": "solution_lv6_coins",
+    "file": "solution_lv6_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "03eac9cd436acad5a0898ae94fc1f0820cebddcc6eeef84be1607dcbd416745e",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 7,
+    "name": "solution_lv7_coins",
+    "file": "solution_lv7_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "544e3e6056945fb2950395045e99d02fdb9cd8c4cf8ccfe0b339ad7a736a3451",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 8,
+    "name": "solution_lv8_coins",
+    "file": "solution_lv8_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "383f51c378b74fe7908d38ee058bad5adbc86cf99cdde2449dae66a1a071fa91",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 9,
+    "name": "solution_lv9_coins",
+    "file": "solution_lv9_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "3d89e72f3296a4772a46da21de1a137aa6b68b7b6742918692ec2f129946dcc1",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 10,
+    "name": "solution_lv10_coins",
+    "file": "solution_lv10_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "86bfe9a877b94596f937a48382b3bb50a5a1f2f66ee8d94eb0896dca33d029dd",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 11,
+    "name": "solution_lv11_coins",
+    "file": "solution_lv11_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "30e4bd85a2bd84a8d3fed7e485f1bd07d2bb45bfac641747604b1a9ad4df5193",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 12,
+    "name": "solution_lv12_coins",
+    "file": "solution_lv12_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "fbc207625b9f185af45655fac73f1d06211f993843bbd9797f537f6ffa36e79a",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 13,
+    "name": "solution_lv13_coins",
+    "file": "solution_lv13_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "789ce3d681ed92f2716098fa4b7292163f34b8aded7c7e9a0a4f4b55687d1948",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 14,
+    "name": "solution_lv14_coins",
+    "file": "solution_lv14_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "cdc390af62656fbb744e83d90f26d704f263e81e5b0a9f0b22c772776b146735",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 15,
+    "name": "solution_lv15_coins",
+    "file": "solution_lv15_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "6da154c4635333a139b98a0000a07af83e7100718404584451979b464104f6dd",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 16,
+    "name": "solution_lv16_coins",
+    "file": "solution_lv16_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "e64dbd37518972066dc2f378f174027bd3e431782d3a6c82eae20d77e6047d70",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 17,
+    "name": "solution_lv17_coins",
+    "file": "solution_lv17_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "cb1b1c13c4dd9188873648799088e186beb8ba2db20e098353b01a81d54e02ae",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 18,
+    "name": "solution_lv18_coins",
+    "file": "solution_lv18_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "d261798e3144114f8b5467e4187f65bb2131ed59af6a378dc05f3da112c6dbc5",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 19,
+    "name": "solution_lv19_coins",
+    "file": "solution_lv19_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "3ff0ec7f8239d8bf779dc508cb2a526e5772134c53211f2898cff98e4b181842",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 20,
+    "name": "solution_lv20_coins",
+    "file": "solution_lv20_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "bc6caa647209f055435bbf580d70c213ad0f82118043285ca3386f2ccf549f17",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 21,
+    "name": "solution_lv21_coins",
+    "file": "solution_lv21_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "610e667d5c76c45c1872ce126fd3a32d5ece5cc0d791f84a5835ef0de810bdca",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  },
+  {
+    "level_id": 22,
+    "name": "solution_lv22_coins",
+    "file": "solution_lv22_coins.txt",
+    "rate": 240,
+    "author": "gdsolver authors",
+    "sha256": "7dba9d29871b8e426a18d328f5a29c94eda3dcf85d1aad71ef5ac2be38a542f4",
+    "url": "https://github.com/gdsolver/gdsolver",
+    "source_engine": "Windows Geometry Dash 2.209",
+    "route": "All-coins route in source engine; coin collection is not asserted by this audit"
+  }
+]

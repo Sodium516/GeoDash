@@ -1,0 +1,16 @@
+{
+  "selected": 2,
+  "volume": 0.5,
+  "muted": false,
+  "primary": [
+    175,
+    60,
+    255
+  ],
+  "secondary": [
+    0,
+    150,
+    255
+  ],
+  "menu_music": ""
+}

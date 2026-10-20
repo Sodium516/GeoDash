@@ -1,0 +1,775 @@
+{
+  "binary_sha256": "dc79491d886eedfc1f2be4ef6ae5c660f86470ee0e442b42ac97d793f031ad52",
+  "method": "updateJump ramp-assisted ground jump",
+  "limitation": "Native ramp-assisted ground-jump microprobe.\n\nUses the exclusions in native_ground_probe: clock/statistics and visual cleanup.\nExecutes getModifiedSlopeYVel and native velocity setters with supplied ramp\nvelocity/ride age. Does not prove the recreation's collision-derived ramp state.\n",
+  "cases": [
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": false,
+      "age": 0.02,
+      "slope": 0,
+      "native_vy": 11.18
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": false,
+      "age": 0.02,
+      "slope": 8,
+      "native_vy": 11.98
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": false,
+      "age": 0.02,
+      "slope": 16,
+      "native_vy": 12.78
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": false,
+      "age": 0.02,
+      "slope": 100,
+      "native_vy": 15.652
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": false,
+      "age": 0.06,
+      "slope": 0,
+      "native_vy": 11.18
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": false,
+      "age": 0.06,
+      "slope": 8,
+      "native_vy": 12.38
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": false,
+      "age": 0.06,
+      "slope": 16,
+      "native_vy": 13.58
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": false,
+      "age": 0.06,
+      "slope": 100,
+      "native_vy": 15.652
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": false,
+      "age": 0.2,
+      "slope": 0,
+      "native_vy": 11.18
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": false,
+      "age": 0.2,
+      "slope": 8,
+      "native_vy": 13.18
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": false,
+      "age": 0.2,
+      "slope": 16,
+      "native_vy": 15.18
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": false,
+      "age": 0.2,
+      "slope": 100,
+      "native_vy": 15.652
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": true,
+      "age": 0.02,
+      "slope": 0,
+      "native_vy": -11.18
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": true,
+      "age": 0.02,
+      "slope": 8,
+      "native_vy": -11.98
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": true,
+      "age": 0.02,
+      "slope": 16,
+      "native_vy": -12.78
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": true,
+      "age": 0.02,
+      "slope": 100,
+      "native_vy": -15.652
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": true,
+      "age": 0.06,
+      "slope": 0,
+      "native_vy": -11.18
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": true,
+      "age": 0.06,
+      "slope": 8,
+      "native_vy": -12.38
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": true,
+      "age": 0.06,
+      "slope": 16,
+      "native_vy": -13.58
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": true,
+      "age": 0.06,
+      "slope": 100,
+      "native_vy": -15.652
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": true,
+      "age": 0.2,
+      "slope": 0,
+      "native_vy": -11.18
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": true,
+      "age": 0.2,
+      "slope": 8,
+      "native_vy": -13.18
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": true,
+      "age": 0.2,
+      "slope": 16,
+      "native_vy": -15.18
+    },
+    {
+      "mode": "cube",
+      "mini": false,
+      "upside": true,
+      "age": 0.2,
+      "slope": 100,
+      "native_vy": -15.652
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": false,
+      "age": 0.02,
+      "slope": 0,
+      "native_vy": 8.943999999999999
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": false,
+      "age": 0.02,
+      "slope": 8,
+      "native_vy": 9.744
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": false,
+      "age": 0.02,
+      "slope": 16,
+      "native_vy": 10.544
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": false,
+      "age": 0.02,
+      "slope": 100,
+      "native_vy": 12.522
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": false,
+      "age": 0.06,
+      "slope": 0,
+      "native_vy": 8.943999999999999
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": false,
+      "age": 0.06,
+      "slope": 8,
+      "native_vy": 10.144
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": false,
+      "age": 0.06,
+      "slope": 16,
+      "native_vy": 11.344
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": false,
+      "age": 0.06,
+      "slope": 100,
+      "native_vy": 12.522
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": false,
+      "age": 0.2,
+      "slope": 0,
+      "native_vy": 8.943999999999999
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": false,
+      "age": 0.2,
+      "slope": 8,
+      "native_vy": 10.943999999999999
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": false,
+      "age": 0.2,
+      "slope": 16,
+      "native_vy": 12.522
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": false,
+      "age": 0.2,
+      "slope": 100,
+      "native_vy": 12.522
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": true,
+      "age": 0.02,
+      "slope": 0,
+      "native_vy": -8.943999999999999
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": true,
+      "age": 0.02,
+      "slope": 8,
+      "native_vy": -9.744
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": true,
+      "age": 0.02,
+      "slope": 16,
+      "native_vy": -10.544
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": true,
+      "age": 0.02,
+      "slope": 100,
+      "native_vy": -12.522
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": true,
+      "age": 0.06,
+      "slope": 0,
+      "native_vy": -8.943999999999999
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": true,
+      "age": 0.06,
+      "slope": 8,
+      "native_vy": -10.144
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": true,
+      "age": 0.06,
+      "slope": 16,
+      "native_vy": -11.344
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": true,
+      "age": 0.06,
+      "slope": 100,
+      "native_vy": -12.522
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": true,
+      "age": 0.2,
+      "slope": 0,
+      "native_vy": -8.943999999999999
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": true,
+      "age": 0.2,
+      "slope": 8,
+      "native_vy": -10.943999999999999
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": true,
+      "age": 0.2,
+      "slope": 16,
+      "native_vy": -12.522
+    },
+    {
+      "mode": "cube",
+      "mini": true,
+      "upside": true,
+      "age": 0.2,
+      "slope": 100,
+      "native_vy": -12.522
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": false,
+      "age": 0.02,
+      "slope": 0,
+      "native_vy": 3.3540001332759855
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": false,
+      "age": 0.02,
+      "slope": 8,
+      "native_vy": 3.9540001571178434
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": false,
+      "age": 0.02,
+      "slope": 16,
+      "native_vy": 4.554000180959702
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": false,
+      "age": 0.02,
+      "slope": 100,
+      "native_vy": 4.69560018658638
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": false,
+      "age": 0.06,
+      "slope": 0,
+      "native_vy": 3.3540001332759855
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": false,
+      "age": 0.06,
+      "slope": 8,
+      "native_vy": 3.9540001571178434
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": false,
+      "age": 0.06,
+      "slope": 16,
+      "native_vy": 4.554000180959702
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": false,
+      "age": 0.06,
+      "slope": 100,
+      "native_vy": 4.69560018658638
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": false,
+      "age": 0.2,
+      "slope": 0,
+      "native_vy": 3.3540001332759855
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": false,
+      "age": 0.2,
+      "slope": 8,
+      "native_vy": 3.9540001571178434
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": false,
+      "age": 0.2,
+      "slope": 16,
+      "native_vy": 4.554000180959702
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": false,
+      "age": 0.2,
+      "slope": 100,
+      "native_vy": 4.69560018658638
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": true,
+      "age": 0.02,
+      "slope": 0,
+      "native_vy": -3.3540001332759855
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": true,
+      "age": 0.02,
+      "slope": 8,
+      "native_vy": -3.9540001571178434
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": true,
+      "age": 0.02,
+      "slope": 16,
+      "native_vy": -4.554000180959702
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": true,
+      "age": 0.02,
+      "slope": 100,
+      "native_vy": -4.69560018658638
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": true,
+      "age": 0.06,
+      "slope": 0,
+      "native_vy": -3.3540001332759855
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": true,
+      "age": 0.06,
+      "slope": 8,
+      "native_vy": -3.9540001571178434
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": true,
+      "age": 0.06,
+      "slope": 16,
+      "native_vy": -4.554000180959702
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": true,
+      "age": 0.06,
+      "slope": 100,
+      "native_vy": -4.69560018658638
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": true,
+      "age": 0.2,
+      "slope": 0,
+      "native_vy": -3.3540001332759855
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": true,
+      "age": 0.2,
+      "slope": 8,
+      "native_vy": -3.9540001571178434
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": true,
+      "age": 0.2,
+      "slope": 16,
+      "native_vy": -4.554000180959702
+    },
+    {
+      "mode": "ball",
+      "mini": false,
+      "upside": true,
+      "age": 0.2,
+      "slope": 100,
+      "native_vy": -4.69560018658638
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": false,
+      "age": 0.02,
+      "slope": 0,
+      "native_vy": 2.6832001066207884
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": false,
+      "age": 0.02,
+      "slope": 8,
+      "native_vy": 3.2832001304626464
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": false,
+      "age": 0.02,
+      "slope": 16,
+      "native_vy": 3.7566001492738725
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": false,
+      "age": 0.02,
+      "slope": 100,
+      "native_vy": 3.7566001492738725
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": false,
+      "age": 0.06,
+      "slope": 0,
+      "native_vy": 2.6832001066207884
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": false,
+      "age": 0.06,
+      "slope": 8,
+      "native_vy": 3.2832001304626464
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": false,
+      "age": 0.06,
+      "slope": 16,
+      "native_vy": 3.7566001492738725
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": false,
+      "age": 0.06,
+      "slope": 100,
+      "native_vy": 3.7566001492738725
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": false,
+      "age": 0.2,
+      "slope": 0,
+      "native_vy": 2.6832001066207884
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": false,
+      "age": 0.2,
+      "slope": 8,
+      "native_vy": 3.2832001304626464
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": false,
+      "age": 0.2,
+      "slope": 16,
+      "native_vy": 3.7566001492738725
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": false,
+      "age": 0.2,
+      "slope": 100,
+      "native_vy": 3.7566001492738725
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": true,
+      "age": 0.02,
+      "slope": 0,
+      "native_vy": -2.6832001066207884
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": true,
+      "age": 0.02,
+      "slope": 8,
+      "native_vy": -3.2832001304626464
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": true,
+      "age": 0.02,
+      "slope": 16,
+      "native_vy": -3.7566001492738725
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": true,
+      "age": 0.02,
+      "slope": 100,
+      "native_vy": -3.7566001492738725
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": true,
+      "age": 0.06,
+      "slope": 0,
+      "native_vy": -2.6832001066207884
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": true,
+      "age": 0.06,
+      "slope": 8,
+      "native_vy": -3.2832001304626464
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": true,
+      "age": 0.06,
+      "slope": 16,
+      "native_vy": -3.7566001492738725
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": true,
+      "age": 0.06,
+      "slope": 100,
+      "native_vy": -3.7566001492738725
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": true,
+      "age": 0.2,
+      "slope": 0,
+      "native_vy": -2.6832001066207884
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": true,
+      "age": 0.2,
+      "slope": 8,
+      "native_vy": -3.2832001304626464
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": true,
+      "age": 0.2,
+      "slope": 16,
+      "native_vy": -3.7566001492738725
+    },
+    {
+      "mode": "ball",
+      "mini": true,
+      "upside": true,
+      "age": 0.2,
+      "slope": 100,
+      "native_vy": -3.7566001492738725
+    }
+  ]
+}

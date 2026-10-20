@@ -1,0 +1,104 @@
+{
+  "binary_sha256": "dc79491d886eedfc1f2be4ef6ae5c660f86470ee0e442b42ac97d793f031ad52",
+  "method": "updateJump, held and stateRingJump",
+  "dt": 0.225,
+  "limitation": "Velocity only; graphical burst skipped; no slopes, collisions or full input pipeline",
+  "cases": [
+    {
+      "mini": false,
+      "upside": false,
+      "vy": -5,
+      "native_vy": 6.871
+    },
+    {
+      "mini": false,
+      "upside": false,
+      "vy": 0,
+      "native_vy": 6.871
+    },
+    {
+      "mini": false,
+      "upside": false,
+      "vy": 5,
+      "native_vy": 6.871
+    },
+    {
+      "mini": false,
+      "upside": false,
+      "vy": 9,
+      "native_vy": 8.0
+    },
+    {
+      "mini": false,
+      "upside": true,
+      "vy": -5,
+      "native_vy": -6.871
+    },
+    {
+      "mini": false,
+      "upside": true,
+      "vy": 0,
+      "native_vy": -6.871
+    },
+    {
+      "mini": false,
+      "upside": true,
+      "vy": 5,
+      "native_vy": -6.871
+    },
+    {
+      "mini": false,
+      "upside": true,
+      "vy": 9,
+      "native_vy": -6.871
+    },
+    {
+      "mini": true,
+      "upside": false,
+      "vy": -5,
+      "native_vy": 6.648
+    },
+    {
+      "mini": true,
+      "upside": false,
+      "vy": 0,
+      "native_vy": 6.648
+    },
+    {
+      "mini": true,
+      "upside": false,
+      "vy": 5,
+      "native_vy": 6.648
+    },
+    {
+      "mini": true,
+      "upside": false,
+      "vy": 9,
+      "native_vy": 8.848
+    },
+    {
+      "mini": true,
+      "upside": true,
+      "vy": -5,
+      "native_vy": -6.648
+    },
+    {
+      "mini": true,
+      "upside": true,
+      "vy": 0,
+      "native_vy": -6.648
+    },
+    {
+      "mini": true,
+      "upside": true,
+      "vy": 5,
+      "native_vy": -6.648
+    },
+    {
+      "mini": true,
+      "upside": true,
+      "vy": 9,
+      "native_vy": -6.648
+    }
+  ]
+}
